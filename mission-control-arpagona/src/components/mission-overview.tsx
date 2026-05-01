@@ -1,0 +1,138 @@
+import Link from "next/link";
+
+import { Badge } from "@/components/ui/badge";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { getDecisionFocusLabel } from "@/lib/decision-engine";
+import type { MissionControlData } from "@/lib/mission-control";
+
+export function MissionOverview({ data }: { data: MissionControlData }) {
+  const nextEvent = data.calendar[0];
+  const liveTasks = data.tasks.filter((task) => task.scope === "live" && !task.done).slice(0, 5);
+  const currentFocus = getDecisionFocusLabel(data.decisions.current?.selectedOptionId);
+
+  return (
+    <div className="grid gap-6">
+      <div className="grid gap-6 xl:grid-cols-[1.1fr_0.9fr]">
+        <Card className="rounded-3xl">
+          <CardHeader>
+            <CardTitle>Operational picture</CardTitle>
+            <CardDescription>Lecture condensée des écrans clés du brief initial.</CardDescription>
+          </CardHeader>
+          <CardContent className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+            {[
+              { label: "Tasks", value: `${data.stats.liveOpenTasks} open`, href: "/tasks" },
+              { label: "Calendar", value: `${data.stats.upcomingEvents} upcoming`, href: "/calendar" },
+              { label: "Memory", value: `${data.stats.memoryFiles} files`, href: "/memory" },
+              { label: "Projects", value: `${data.stats.projectFiles} tracked`, href: "/projects" },
+              { label: "Team", value: `${data.stats.teamMembers} members`, href: "/team" },
+              { label: "Visual Office", value: `${data.stats.visualSpaces} spaces`, href: "/visual-office" },
+            ].map((item) => (
+              <Link key={item.label} href={item.href} className="rounded-2xl border p-4 transition-colors hover:bg-muted/40">
+                <p className="text-sm text-muted-foreground">{item.label}</p>
+                <p className="mt-1 text-xl font-medium">{item.value}</p>
+              </Link>
+            ))}
+          </CardContent>
+        </Card>
+
+        <Card className="rounded-3xl">
+          <CardHeader>
+            <CardTitle>Next trigger</CardTitle>
+            <CardDescription>Ce qui arrive en premier dans la fenêtre opérateur.</CardDescription>
+          </CardHeader>
+          <CardContent>
+            {nextEvent ? (
+              <div className="rounded-2xl border p-4">
+                <div className="flex items-start justify-between gap-3">
+                  <div>
+                    <p className="font-medium">{nextEvent.title}</p>
+                    <p className="mt-1 text-sm text-muted-foreground">{new Intl.DateTimeFormat("fr-FR", { dateStyle: "medium", timeStyle: "short" }).format(new Date(nextEvent.start))}</p>
+                    {nextEvent.location ? <p className="mt-1 text-xs text-muted-foreground">{nextEvent.location}</p> : null}
+                  </div>
+                  <Badge variant="secondary">{nextEvent.source?.replace(/^google-calendar:/, "") || "calendar"}</Badge>
+                </div>
+              </div>
+            ) : (
+              <div className="rounded-2xl border border-dashed p-4 text-sm text-muted-foreground">Aucun événement imminent détecté.</div>
+            )}
+          </CardContent>
+        </Card>
+      </div>
+
+      <Card className="rounded-3xl">
+        <CardHeader>
+          <CardTitle>Decision impact</CardTitle>
+          <CardDescription>Le cockpit commence à refléter le dernier arbitrage choisi.</CardDescription>
+        </CardHeader>
+        <CardContent className="grid gap-4 lg:grid-cols-[0.8fr_1.2fr]">
+          <div className="rounded-2xl border p-4">
+            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-muted-foreground">Current focus</p>
+            <p className="mt-2 text-2xl font-semibold">{currentFocus}</p>
+            <p className="mt-2 text-sm text-muted-foreground">
+              {data.decisions.current ? `Choix actif: ${data.decisions.current.selectedLabel}` : "Aucun arbitrage explicite sélectionné pour l’instant."}
+            </p>
+          </div>
+          <div className="rounded-2xl border p-4">
+            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-muted-foreground">Operational consequence</p>
+            <p className="mt-2 text-sm text-muted-foreground">
+              {data.decisions.current?.selectedOptionId === "prioritize-sales" && "Les signaux commerciaux deviennent prioritaires dans la lecture du cockpit et dans les prochains arbitrages."}
+              {data.decisions.current?.selectedOptionId === "prioritize-delivery" && "Mission Control et l’exécution technique restent au centre de l’attention immédiate."}
+              {data.decisions.current?.selectedOptionId === "prioritize-strategy" && "Le cockpit assume une lecture plus stratégique des signaux au lieu de pousser l’exécution brute."}
+              {data.decisions.current?.selectedOptionId === "schedule-calendar-review" && "La pression calendrier devient un facteur majeur dans les prochains choix proposés."}
+              {data.decisions.current?.selectedOptionId === "reduce-open-fronts" && "Le système pousse implicitement vers moins de dispersion et plus de concentration opérationnelle."}
+              {!data.decisions.current && "Choisis un cap pour que le cockpit commence à refléter activement ta décision."}
+            </p>
+          </div>
+        </CardContent>
+      </Card>
+
+      <div className="grid gap-6 xl:grid-cols-[0.9fr_1.1fr]">
+        <Card className="rounded-3xl">
+          <CardHeader>
+            <CardTitle>Source readiness</CardTitle>
+            <CardDescription>État réel des sources canoniques locales.</CardDescription>
+          </CardHeader>
+          <CardContent className="space-y-3">
+            {data.sources.map((source) => (
+              <div key={source.path} className="flex items-center justify-between rounded-2xl border p-3 text-sm">
+                <div>
+                  <p className="font-medium">{source.label}</p>
+                  <p className="font-mono text-xs text-muted-foreground">{source.path}</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Badge variant={source.exists ? "secondary" : "destructive"}>{source.exists ? "ready" : "missing"}</Badge>
+                  <Badge variant="outline">{source.entries}</Badge>
+                </div>
+              </div>
+            ))}
+          </CardContent>
+        </Card>
+
+        <Card className="rounded-3xl">
+          <CardHeader>
+            <CardTitle>Live execution queue</CardTitle>
+            <CardDescription>Extraits du flux d’exécution ARPAGONA vraiment vivant.</CardDescription>
+          </CardHeader>
+          <CardContent className="space-y-3">
+            {liveTasks.length === 0 ? (
+              <div className="rounded-2xl border border-dashed p-4 text-sm text-muted-foreground">Aucune tâche live ouverte détectée.</div>
+            ) : (
+              liveTasks.map((task) => (
+                <div key={`${task.path}:${task.line}:${task.text}`} className="rounded-2xl border p-4">
+                  <p className="font-medium">{task.text}</p>
+                  <p className="mt-1 font-mono text-xs text-muted-foreground">{task.path}:{task.line}</p>
+                  <div className="mt-2 flex flex-wrap gap-2">
+                    <Badge variant="outline">{task.category}</Badge>
+                    <Badge variant={task.priority === "high" ? "destructive" : task.priority === "medium" ? "secondary" : "outline"}>
+                      {task.priority}
+                    </Badge>
+                  </div>
+                </div>
+              ))
+            )}
+          </CardContent>
+        </Card>
+      </div>
+    </div>
+  );
+}

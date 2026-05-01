@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "updatedAt": "2026-05-01T01:00:00.199Z",
+  "entries": {
+    "memory:memory/2026-04-29.md:3:6": {
+      "key": "memory:memory/2026-04-29.md:3:6",
+      "lightHits": 1,
+      "remHits": 0,
+      "lastLightAt": "2026-05-01T01:00:00.199Z"
+    },
+    "memory:memory/2026-04-29.md:7:10": {
+      "key": "memory:memory/2026-04-29.md:7:10",
+      "lightHits": 1,
+      "remHits": 0,
+      "lastLightAt": "2026-05-01T01:00:00.199Z"
+    },
+    "memory:memory/2026-04-29.md:11:14": {
+      "key": "memory:memory/2026-04-29.md:11:14",
+      "lightHits": 1,
+      "remHits": 0,
+      "lastLightAt": "2026-05-01T01:00:00.199Z"
+    },
+    "memory:memory/2026-04-29.md:15:16": {
+      "key": "memory:memory/2026-04-29.md:15:16",
+      "lightHits": 1,
+      "remHits": 0,
+      "lastLightAt": "2026-05-01T01:00:00.199Z"
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:1:1",
+      "lightHits": 1,
+      "remHits": 0,
+      "lastLightAt": "2026-05-01T01:00:00.199Z"
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-30.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-30.txt:1:1",
+      "lightHits": 1,
+      "remHits": 0,
+      "lastLightAt": "2026-05-01T01:00:00.199Z"
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-30.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-30.txt:2:2",
+      "lightHits": 1,
+      "remHits": 0,
+      "lastLightAt": "2026-05-01T01:00:00.199Z"
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-30.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-30.txt:3:3",
+      "lightHits": 1,
+      "remHits": 0,
+      "lastLightAt": "2026-05-01T01:00:00.199Z"
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-30.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-30.txt:4:4",
+      "lightHits": 1,
+      "remHits": 0,
+      "lastLightAt": "2026-05-01T01:00:00.199Z"
+    },
+    "memory:memory/2026-04-28.md:1:4": {
+      "key": "memory:memory/2026-04-28.md:1:4",
+      "lightHits": 1,
+      "remHits": 1,
+      "lastLightAt": "2026-05-01T01:00:00.199Z",
+      "lastRemAt": "2026-05-01T01:00:00.199Z"
+    }
+  }
+}

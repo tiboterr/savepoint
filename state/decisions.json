@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "name": "Mission Control Decisions",
+    "description": "Canonical local decision state for Mission Control ARPAGONA.",
+    "updatedAt": "2026-05-01T13:55:50.221Z"
+  },
+  "current": {
+    "promptId": "secondary-calendar-2026-05-01T13",
+    "kind": "secondary",
+    "question": "Quel rapport veux-tu entre l’agenda et l’exécution ?",
+    "selectedOptionId": "ignore-calendar-noise",
+    "selectedLabel": "Protéger le focus malgré l’agenda",
+    "selectedAt": "2026-05-01T13:55:50.221Z"
+  },
+  "history": [
+    {
+      "promptId": "secondary-calendar-2026-05-01T13",
+      "kind": "secondary",
+      "question": "Quel rapport veux-tu entre l’agenda et l’exécution ?",
+      "selectedOptionId": "ignore-calendar-noise",
+      "selectedLabel": "Protéger le focus malgré l’agenda",
+      "selectedAt": "2026-05-01T13:55:50.221Z"
+    },
+    {
+      "promptId": "overview-2026-05-01T13",
+      "kind": "primary",
+      "question": "Quel arbitrage doit primer maintenant dans ARPAGONA ?",
+      "selectedOptionId": "prioritize-delivery",
+      "selectedLabel": "Finir Mission Control / delivery",
+      "selectedAt": "2026-05-01T13:55:40.482Z"
+    },
+    {
+      "promptId": "overview-2026-05-01T13",
+      "kind": "primary",
+      "question": "Quel arbitrage doit primer maintenant dans ARPAGONA ?",
+      "selectedOptionId": "prioritize-delivery",
+      "selectedLabel": "Finir Mission Control / delivery",
+      "selectedAt": "2026-05-01T13:55:24.825Z"
+    },
+    {
+      "promptId": "overview-2026-05-01T13",
+      "question": "Quel arbitrage doit primer maintenant dans ARPAGONA ?",
+      "selectedOptionId": "prioritize-delivery",
+      "selectedLabel": "Finir Mission Control / delivery",
+      "selectedAt": "2026-05-01T13:44:47.187Z"
+    }
+  ]
+}

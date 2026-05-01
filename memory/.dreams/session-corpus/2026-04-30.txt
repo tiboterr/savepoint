@@ -1,0 +1,4 @@
+[main/sessions/9f32db6d-7c3c-4810-a0f8-d182dffabbd1.jsonl#L2] Assistant: ✅ New session started.
+[main/sessions/9f32db6d-7c3c-4810-a0f8-d182dffabbd1.jsonl#L5] User: salut chef, un petit conseil pour moi ce soir ?
+[main/sessions/9f32db6d-7c3c-4810-a0f8-d182dffabbd1.jsonl#L11] Assistant: Oui : **ne cherche pas à “réussir ta soirée”** — cherche à **la rendre propre**. Ce soir, je te conseillerais un truc simple : 1. **Coupe 2-3 options** que tu n’as pas besoin de garder ouvertes. 2. **Choisis une seule action utile** de 30 à 60 min, pas héroïque. 3. **P
+[main/sessions/9f32db6d-7c3c-4810-a0f8-d182dffabbd1.jsonl#L11] Assistant: un conseil **plus précis selon ton état de ce soir** : - **fatigué** - **agité** - **motivé** - **perdu**

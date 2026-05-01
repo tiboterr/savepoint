@@ -1,0 +1,1 @@
+[main/sessions/5a2e71cd-089c-4211-ac8c-b79279adef2c.jsonl#L2] Assistant: J’ai lancé le diagnostic après le redémarrage. Il y a encore quelques points à corriger : - **sessions** : 1 transcript principal manquant, 7 transcripts orphelins, et 1 entrée de session sans transcript - **runtime Node** : le système est encore vu avec **Node 18** su

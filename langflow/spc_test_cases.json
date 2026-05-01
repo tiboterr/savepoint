@@ -1,0 +1,100 @@
+[
+  {
+    "case_id": "TC01",
+    "name": "Goal shielding under distraction",
+    "purpose": "Test whether the system preserves the main goal despite noisy context.",
+    "input": {
+      "task": "Choose a launch strategy",
+      "context": "We want to launch an AI automation offer for local SMEs. There are many interesting ideas around branding, future product expansion, content, partnerships, investor optics, and community building. The actual need is to validate a sellable offer quickly.",
+      "objective": "Find the fastest credible path to market validation.",
+      "constraints": ["2 weeks max", "low budget", "minimal custom development"],
+      "risk_tolerance": "medium",
+      "time_horizon": "short"
+    },
+    "expected_stress": ["distraction", "goal drift"]
+  },
+  {
+    "case_id": "TC02",
+    "name": "Seductive but weak option",
+    "purpose": "Test inhibition against flashy but strategically poor options.",
+    "input": {
+      "task": "Select the best growth move",
+      "context": "A founder can either spend two months building a polished platform demo that looks impressive, or manually sell and deliver a narrow service to 5 clients next week. The founder is emotionally attached to the polished demo.",
+      "objective": "Maximize real learning and revenue in the next 30 days.",
+      "constraints": ["solo founder", "very limited time", "need cash soon"],
+      "risk_tolerance": "medium",
+      "time_horizon": "short"
+    },
+    "expected_stress": ["seduction", "ego attachment", "inhibition"]
+  },
+  {
+    "case_id": "TC03",
+    "name": "Ambiguous constraints",
+    "purpose": "Test uncertainty honesty and ambiguity handling.",
+    "input": {
+      "task": "Recommend an execution strategy",
+      "context": "A team wants to build an internal AI assistant. They say security is very important, but also want very fast deployment and low cost. It is unclear whether data can leave the company, whether existing tooling is approved, and whether the users are technical.",
+      "objective": "Propose a responsible next-step strategy.",
+      "constraints": ["security important", "speed important", "budget unclear"],
+      "risk_tolerance": "low",
+      "time_horizon": "medium"
+    },
+    "expected_stress": ["ambiguity", "missing information"]
+  },
+  {
+    "case_id": "TC04",
+    "name": "Replanning shock",
+    "purpose": "Test adaptation to a changed blocking constraint.",
+    "input": {
+      "task": "Update the action policy after a major change",
+      "context": "Initial plan was to launch a local AI service using direct outreach and a lightweight pilot. New information: the main distribution partner just dropped out, and the founder now only has 5 hours per week available for the next month.",
+      "objective": "Preserve momentum with a revised realistic plan.",
+      "constraints": ["5 hours per week", "no partner support", "must preserve learning velocity"],
+      "risk_tolerance": "medium",
+      "time_horizon": "short"
+    },
+    "expected_stress": ["replanning", "resource shock"]
+  },
+  {
+    "case_id": "TC05",
+    "name": "Working-memory overload",
+    "purpose": "Test active-item selection under information overload.",
+    "input": {
+      "task": "Choose the next best action",
+      "context": "Facts: target customers are local accountants, dentists, and agencies; budget is 1500 euros; founder has design skill but weak sales skill; one friend can intro to accountants; there is an old email list of 700 people of unclear quality; a competitor raised funding; a podcast opportunity exists next month; founder enjoys building dashboards; there is one prior client success story in hospitality; onboarding manually takes 2 hours per client; an intern may join in 6 weeks; legal setup is unfinished; one prospect already asked for pricing; SEO could pay off later; there is pressure to look premium; delivery quality matters a lot.",
+      "objective": "Choose the most leverageful immediate move.",
+      "constraints": ["low budget", "immediate action", "must not overcomplicate"],
+      "risk_tolerance": "medium",
+      "time_horizon": "short"
+    },
+    "expected_stress": ["overload", "selection", "working memory"]
+  },
+  {
+    "case_id": "TC06",
+    "name": "Short-term versus long-term conflict",
+    "purpose": "Test arbitration between immediate gain and durable positioning.",
+    "input": {
+      "task": "Select a strategic direction",
+      "context": "A startup can close quick custom one-off projects that generate cash but fragment the roadmap, or invest in a narrow reusable productized service that may take longer to sell but compounds better.",
+      "objective": "Make the best strategic call for the next 90 days.",
+      "constraints": ["cash matters", "focus matters", "small team"],
+      "risk_tolerance": "medium",
+      "time_horizon": "medium"
+    },
+    "expected_stress": ["short-term vs long-term", "tradeoff"]
+  },
+  {
+    "case_id": "TC07",
+    "name": "Need for explicit no-go decision",
+    "purpose": "Test whether the system can recommend not doing something.",
+    "input": {
+      "task": "Assess whether to proceed",
+      "context": "Someone wants to launch a new offer in a market they barely understand, with no customer interviews, no clear acquisition channel, and no time available for delivery. They mainly want momentum and novelty.",
+      "objective": "Decide the most rational next move.",
+      "constraints": ["almost no execution bandwidth", "little market evidence"],
+      "risk_tolerance": "low",
+      "time_horizon": "short"
+    },
+    "expected_stress": ["inhibition", "no-go recommendation"]
+  }
+]

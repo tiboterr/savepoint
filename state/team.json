@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "name": "Mission Control Team",
+    "description": "Canonical local team source for Mission Control ARPAGONA.",
+    "updatedAt": "2026-05-01T15:29:00+02:00"
+  },
+  "members": [
+    {
+      "id": "thibaud",
+      "name": "Thibaud",
+      "emoji": "🧠",
+      "role": "Founder / Operator",
+      "status": "active",
+      "focus": "Build ARPAGONA into a real profitable business",
+      "currentRoom": "command-room",
+      "currentTask": "Arbitrer la direction produit et commerciale de Mission Control",
+      "progress": 76
+    },
+    {
+      "id": "gona",
+      "name": "GONA",
+      "emoji": "👽",
+      "role": "AI Chief of Staff / Mission Control",
+      "status": "active",
+      "focus": "Structure execution, memory, calendar, and operational visibility",
+      "currentRoom": "operations-room",
+      "currentTask": "Orchestrer le cockpit et coordonner les flux réels",
+      "progress": 82
+    },
+    {
+      "id": "arpa",
+      "name": "ARPA",
+      "emoji": "🧭",
+      "role": "Strategy Agent",
+      "status": "active",
+      "focus": "Stratégie ARPAGONA, cap, positionnement et structuration des priorités",
+      "currentRoom": "command-room",
+      "currentTask": "Structurer la vision et le pilotage stratégique d’ARPAGONA",
+      "progress": 64
+    },
+    {
+      "id": "loco",
+      "name": "LOCO",
+      "emoji": "⚙️",
+      "role": "Field / Operations Agent",
+      "status": "active",
+      "focus": "Exécution locale, terrain, momentum, et boucles opérationnelles",
+      "currentRoom": "sales-room",
+      "currentTask": "Soutenir la traction locale et les boucles de prospection",
+      "progress": 58
+    },
+    {
+      "id": "code",
+      "name": "CODE",
+      "emoji": "🛠️",
+      "role": "Engineering Agent",
+      "status": "active",
+      "focus": "Build, refactor, and technical execution",
+      "currentRoom": "build-lab",
+      "currentTask": "Implémenter les refontes UI et la structure du cockpit",
+      "progress": 67
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "name": "Mission Control Visual Office",
+    "description": "Canonical local visual office source for Mission Control ARPAGONA.",
+    "updatedAt": "2026-05-01T15:19:00+02:00",
+    "mode": "company-floor-plan"
+  },
+  "spaces": [
+    {
+      "id": "command-room",
+      "name": "Command Room",
+      "status": "online",
+      "purpose": "Direction, arbitrage, et lecture globale du cockpit",
+      "zone": "executive-wing",
+      "roomType": "decision-room",
+      "linkedView": "/",
+      "sourcePath": "mission-control-arpagona/src/app/page.tsx",
+      "signal": "overview, next trigger, live execution queue",
+      "progressLabel": "Décisions & cap"
+    },
+    {
+      "id": "sales-room",
+      "name": "Sales Room",
+      "status": "online",
+      "purpose": "Prospection, offres, et momentum commercial",
+      "zone": "commercial-wing",
+      "roomType": "deal-room",
+      "linkedView": "/projects",
+      "sourcePath": "ARPAGONA_OFFRES.md + ARPAGONA_SALES_KIT.md",
+      "signal": "offers, pitch, outreach motion",
+      "progressLabel": "Pipeline commercial",
+      "taskCategory": "sales"
+    },
+    {
+      "id": "operations-room",
+      "name": "Operations Room",
+      "status": "online",
+      "purpose": "Pilotage des tâches live et coordination d’exécution",
+      "zone": "operations-wing",
+      "roomType": "war-room",
+      "linkedView": "/tasks",
+      "sourcePath": "ARPAGONA_ACTION_PLAN.md",
+      "signal": "live task stream with categories and priorities",
+      "progressLabel": "Exécution active",
+      "taskCategory": "ops"
+    },
+    {
+      "id": "build-lab",
+      "name": "Build Lab",
+      "status": "online",
+      "purpose": "Implémentation technique, UI, structure logicielle",
+      "zone": "operations-wing",
+      "roomType": "engineering-lab",
+      "linkedView": "/visual-office",
+      "sourcePath": "mission-control-arpagona/src/",
+      "signal": "UI refactors, system wiring, delegated code work",
+      "progressLabel": "Production technique",
+      "taskCategory": "delivery"
+    },
+    {
+      "id": "calendar-room",
+      "name": "Calendar Room",
+      "status": "online",
+      "purpose": "Pression temporelle, agenda, et coordination des prochains événements",
+      "zone": "coordination-wing",
+      "roomType": "timeline-room",
+      "linkedView": "/calendar",
+      "sourcePath": "state/calendar.json",
+      "signal": "multi-calendar Google sync",
+      "progressLabel": "Flux temporel"
+    },
+    {
+      "id": "memory-library",
+      "name": "Memory Library",
+      "status": "online",
+      "purpose": "Mémoire longue, notes quotidiennes, et documentation vivante",
+      "zone": "knowledge-wing",
+      "roomType": "archive-room",
+      "linkedView": "/memory",
+      "sourcePath": "memory/ + MEMORY.md",
+      "signal": "recent memory files and curated long-term memory",
+      "progressLabel": "Contexte & mémoire",
+      "taskCategory": "memory"
+    }
+  ]
+}

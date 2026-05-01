@@ -1,0 +1,300 @@
+{
+  "meta": {
+    "name": "Mission Control Calendar",
+    "timezone": "Europe/Paris",
+    "description": "Canonical local calendar source for Mission Control ARPAGONA. Real events only.",
+    "syncedAt": "2026-05-01T10:00:58.502Z",
+    "source": "google-calendar:all-visible",
+    "calendars": [
+      {
+        "id": "hsfh2f10uag8mp6jbsvfi61i1s@group.calendar.google.com",
+        "title": "Thibaud's iPhone"
+      },
+      {
+        "id": "family07345733158115440767@group.calendar.google.com",
+        "title": "Famille"
+      },
+      {
+        "id": "olpgnt1a3pkggo6buuu2dijilse69q73@import.calendar.google.com",
+        "title": "NetYParéo"
+      },
+      {
+        "id": "tiboterr@gmail.com",
+        "title": "tiboterr@gmail.com"
+      }
+    ],
+    "appRoot": "/home/thibaud/.openclaw/workspace/mission-control-arpagona"
+  },
+  "events": [
+    {
+      "id": "NetYParéo:_6cs3ecpk6gsj8cpo6oojcdpp6h04spbkb5o62sj5ds",
+      "title": "Gestion de l'alternance - BTS CPI 2A_16_2026 - BTS CPRP 2A_16_2026",
+      "start": "2026-05-05T08:30:00+02:00",
+      "end": "2026-05-05T10:00:00+02:00",
+      "status": "confirmed",
+      "location": "Angoulême BE CPI",
+      "notes": "CPI 2A_16_2026CPR 2A_16 2026",
+      "source": "google-calendar:NetYParéo"
+    },
+    {
+      "id": "NetYParéo:_6cs3ecpk6gsj8cpo6oojcdpp6p04spbkb5o62sj5ds",
+      "title": "Gestion de Production - BTS CPI 2A_16_2026 - BTS CPRP 2A_16_2026",
+      "start": "2026-05-05T10:00:00+02:00",
+      "end": "2026-05-05T12:00:00+02:00",
+      "status": "confirmed",
+      "location": "Angoulême BE CPI",
+      "notes": "CPI 2A_16_2026CPR 2A_16 2026",
+      "source": "google-calendar:NetYParéo"
+    },
+    {
+      "id": "NetYParéo:_6cs3ecpk6gsj8cpo6oojcdpp6t04spbkb5o62sj5ds",
+      "title": "Projet Industriel - BTS CPI 2A_16_2026 - BTS CPRP 2A_16_2026",
+      "start": "2026-05-05T13:00:00+02:00",
+      "end": "2026-05-05T16:30:00+02:00",
+      "status": "confirmed",
+      "location": "Angoulême BE CPI",
+      "notes": "CPI 2A_16_2026CPR 2A_16 2026",
+      "source": "google-calendar:NetYParéo"
+    },
+    {
+      "id": "NetYParéo:_6cs3ecpk6gsj8cpo6oojcd1j6t04spbkb5o62sj5ds",
+      "title": "Construction mécanique - BTS CPI 2A_16_2026",
+      "start": "2026-05-06T08:30:00+02:00",
+      "end": "2026-05-06T12:00:00+02:00",
+      "status": "confirmed",
+      "location": "Angoulême BE CPI, Angoulême CAO CPI",
+      "notes": "Commentaires : Revue de projet U51 – CCF Phase2    \nCPI 2A_16_2026",
+      "source": "google-calendar:NetYParéo"
+    },
+    {
+      "id": "NetYParéo:_6cs3ecpk6gsj8cpo6oq34cpp6504spbkb5o62sj5ds",
+      "title": "Industrialisation des Produits - BTS CPI 2A_16_2026",
+      "start": "2026-05-06T13:00:00+02:00",
+      "end": "2026-05-06T16:30:00+02:00",
+      "status": "confirmed",
+      "location": "Angoulême BE CPI, Angoulême CAO CPI",
+      "notes": "Commentaires : Revue de projet U51 – CCF Phase2    \nCPI 2A_16_2026",
+      "source": "google-calendar:NetYParéo"
+    },
+    {
+      "id": "NetYParéo:_6cs3ecpk6gsj8cpo6oojcdpp7504spbkb5o62sj5ds",
+      "title": "Projet Industriel - BTS CPI 2A_16_2026 - BTS CPRP 2A_16_2026",
+      "start": "2026-05-07T08:30:00+02:00",
+      "end": "2026-05-07T12:00:00+02:00",
+      "status": "confirmed",
+      "location": "Angoulême BE CPI, Angoulême Productique FAO",
+      "notes": "Personnels : M. PINEAU    \nCPI 2A_16_2026CPR 2A_16 2026",
+      "source": "google-calendar:NetYParéo"
+    },
+    {
+      "id": "NetYParéo:_6cs3ecpk6gsj8cpo6oojcd1j7104spbkb5o62sj5ds",
+      "title": "Construction mécanique - BTS CPI 2A_16_2026 - BTS CPRP 2A_16_2026",
+      "start": "2026-05-07T13:00:00+02:00",
+      "end": "2026-05-07T16:30:00+02:00",
+      "status": "confirmed",
+      "location": "Angoulême BE CPI, Angoulême Productique FAO",
+      "notes": "Personnels : M. PINEAU    \nCPI 2A_16_2026CPR 2A_16 2026    \nIndividuels : M. BOYER",
+      "source": "google-calendar:NetYParéo"
+    },
+    {
+      "id": "NetYParéo:_6cs3ecpk6gsj8cpo6oojce1g6504spbkb5o62sj5ds",
+      "title": "Gestion de l'alternance - BTS CPI 2A_16_2026 - BTS CPRP 2A_16_2026",
+      "start": "2026-05-12T08:30:00+02:00",
+      "end": "2026-05-12T10:00:00+02:00",
+      "status": "confirmed",
+      "location": "Angoulême BE CPI",
+      "notes": "CPI 2A_16_2026CPR 2A_16 2026",
+      "source": "google-calendar:NetYParéo"
+    },
+    {
+      "id": "NetYParéo:_6cs3ecpk6gsj8cpo6oojce1g6d04spbkb5o62sj5ds",
+      "title": "Gestion de Production - BTS CPI 2A_16_2026 - BTS CPRP 2A_16_2026",
+      "start": "2026-05-12T10:00:00+02:00",
+      "end": "2026-05-12T12:00:00+02:00",
+      "status": "confirmed",
+      "location": "Angoulême BE CPI",
+      "notes": "CPI 2A_16_2026CPR 2A_16 2026",
+      "source": "google-calendar:NetYParéo"
+    },
+    {
+      "id": "NetYParéo:_6cs3ecpk6gsj8cpo70o34d1k6p04spbkb5o62sj5ds",
+      "title": "Construction mécanique - BTS CPI 2A_16_2026 - BTS CPRP 2A_16_2026",
+      "start": "2026-05-12T13:00:00+02:00",
+      "end": "2026-05-12T16:30:00+02:00",
+      "status": "confirmed",
+      "location": "Angoulême BE CPI",
+      "notes": "CPI 2A_16_2026CPR 2A_16 2026",
+      "source": "google-calendar:NetYParéo"
+    },
+    {
+      "id": "NetYParéo:_6cs3ecpk6gsj8cpo6oojcd1k6h04spbkb5o62sj5ds",
+      "title": "Construction mécanique - BTS CPI 2A_16_2026 - BTS CPRP 2A_16_2026",
+      "start": "2026-05-13T08:30:00+02:00",
+      "end": "2026-05-13T12:00:00+02:00",
+      "status": "confirmed",
+      "location": "Angoulême BE CPI",
+      "notes": "CPI 2A_16_2026CPR 2A_16 2026",
+      "source": "google-calendar:NetYParéo"
+    },
+    {
+      "id": "NetYParéo:_6cs3ecpk6gsj8cpo6oojce1g6l04spbkb5o62sj5ds",
+      "title": "Projet Industriel - BTS CPI 2A_16_2026 - BTS CPRP 2A_16_2026",
+      "start": "2026-05-13T13:00:00+02:00",
+      "end": "2026-05-13T16:30:00+02:00",
+      "status": "confirmed",
+      "location": "Angoulême BE CPI",
+      "notes": "CPI 2A_16_2026CPR 2A_16 2026",
+      "source": "google-calendar:NetYParéo"
+    },
+    {
+      "id": "NetYParéo:_6cs3ecpk6gsj8cpo6op32d1g6904spbkb5o62sj5ds",
+      "title": "Gestion de l'alternance - BTS CPRP 1A_16_2027",
+      "start": "2026-05-18T08:30:00+02:00",
+      "end": "2026-05-18T10:00:00+02:00",
+      "status": "confirmed",
+      "location": "Angoulême Productique FAO",
+      "notes": "CPR 1A_16 2027",
+      "source": "google-calendar:NetYParéo"
+    },
+    {
+      "id": "NetYParéo:_6cs3ecpk6gsj8cpo6op32d1g6d04spbkb5o62sj5ds",
+      "title": "Gestion de Production - BTS CPRP 1A_16_2027",
+      "start": "2026-05-18T10:00:00+02:00",
+      "end": "2026-05-18T12:00:00+02:00",
+      "status": "confirmed",
+      "location": "Angoulême Productique FAO",
+      "notes": "CPR 1A_16 2027",
+      "source": "google-calendar:NetYParéo"
+    },
+    {
+      "id": "NetYParéo:_6cs3ecpk6gsj8cpo6op32d1g6l04spbkb5o62sj5ds",
+      "title": "Projet Industriel - BTS CPRP 1A_16_2027",
+      "start": "2026-05-18T13:00:00+02:00",
+      "end": "2026-05-18T16:30:00+02:00",
+      "status": "confirmed",
+      "location": "Angoulême Productique FAO",
+      "notes": "CPR 1A_16 2027",
+      "source": "google-calendar:NetYParéo"
+    },
+    {
+      "id": "NetYParéo:_6cs3ecpk6gsj8cpo6op3ge1h6l04spbkb5o62sj5ds",
+      "title": "Gestion de l'alternance - BTS CPI 1A_16_2027",
+      "start": "2026-05-19T08:30:00+02:00",
+      "end": "2026-05-19T10:00:00+02:00",
+      "status": "confirmed",
+      "location": "Angoulême BE CPI",
+      "notes": "CPI 1A_16_2027    \nIndividuels : M. BOYER",
+      "source": "google-calendar:NetYParéo"
+    },
+    {
+      "id": "NetYParéo:_6cs3ecpk6gsj8cpo6op3ge1h6h04spbkb5o62sj5ds",
+      "title": "Construction mécanique - BTS CPI 1A_16_2027",
+      "start": "2026-05-19T10:00:00+02:00",
+      "end": "2026-05-19T12:00:00+02:00",
+      "status": "confirmed",
+      "location": "Angoulême BE CPI",
+      "notes": "CPI 1A_16_2027    \nIndividuels : M. BOYER",
+      "source": "google-calendar:NetYParéo"
+    },
+    {
+      "id": "NetYParéo:_6cs3ecpk6gsj8cpo6op3ge1h6p04spbkb5o62sj5ds",
+      "title": "Projet Collaboratif - BTS CPI 1A_16_2027 - BTS CPRP 1A_16_2027",
+      "start": "2026-05-19T13:00:00+02:00",
+      "end": "2026-05-19T16:30:00+02:00",
+      "status": "confirmed",
+      "location": "Angoulême BE CPI",
+      "notes": "CPI 1A_16_2027CPR 1A_16 2027    \nIndividuels : M. BOYER",
+      "source": "google-calendar:NetYParéo"
+    },
+    {
+      "id": "NetYParéo:_6cs3ecpk6gsj8cpo6op32d1g6504spbkb5o62sj5ds",
+      "title": "Conception Préliminaire - BTS CPI 1A_16_2027 - BTS CPRP 1A_16_2027",
+      "start": "2026-05-20T08:30:00+02:00",
+      "end": "2026-05-20T12:00:00+02:00",
+      "status": "confirmed",
+      "location": "Angoulême BE CPI",
+      "notes": "CPI 1A_16_2027CPR 1A_16 2027",
+      "source": "google-calendar:NetYParéo"
+    },
+    {
+      "id": "NetYParéo:_6cs3ecpk6gsj8cpo6op32d1g6p04spbkb5o62sj5ds",
+      "title": "Gestion de Production - BTS CPRP 1A_16_2027",
+      "start": "2026-05-21T08:30:00+02:00",
+      "end": "2026-05-21T12:00:00+02:00",
+      "status": "confirmed",
+      "location": "Angoulême Productique FAO",
+      "notes": "CPR 1A_16 2027",
+      "source": "google-calendar:NetYParéo"
+    },
+    {
+      "id": "NetYParéo:_6cs3ecpk6gsj8cpo6op32d1g6t04spbkb5o62sj5ds",
+      "title": "Gestion de Production - BTS CPRP 1A_16_2027",
+      "start": "2026-05-21T13:00:00+02:00",
+      "end": "2026-05-21T16:30:00+02:00",
+      "status": "confirmed",
+      "location": "Angoulême Productique FAO",
+      "notes": "CPR 1A_16 2027",
+      "source": "google-calendar:NetYParéo"
+    },
+    {
+      "id": "NetYParéo:_6cs3ecpk6gsj8cpo6op32d1h6504spbkb5o62sj5ds",
+      "title": "Projet Industriel - BTS CPRP 1A_16_2027",
+      "start": "2026-05-26T13:00:00+02:00",
+      "end": "2026-05-26T16:30:00+02:00",
+      "status": "confirmed",
+      "location": "Angoulême Productique FAO",
+      "notes": "CPR 1A_16 2027",
+      "source": "google-calendar:NetYParéo"
+    },
+    {
+      "id": "NetYParéo:_6cs3ecpk6gsj8cpo6op32d1h6d04spbkb5o62sj5ds",
+      "title": "Projet Industriel - BTS CPRP 1A_16_2027",
+      "start": "2026-05-28T08:30:00+02:00",
+      "end": "2026-05-28T12:00:00+02:00",
+      "status": "confirmed",
+      "location": "Angoulême Productique FAO",
+      "notes": "CPR 1A_16 2027",
+      "source": "google-calendar:NetYParéo"
+    },
+    {
+      "id": "NetYParéo:_6cs3ecpk6gsj8cpo6op32d1h6h04spbkb5o62sj5ds",
+      "title": "Projet Industriel - BTS CPRP 1A_16_2027",
+      "start": "2026-05-28T13:00:00+02:00",
+      "end": "2026-05-28T16:30:00+02:00",
+      "status": "confirmed",
+      "location": "Angoulême Productique FAO",
+      "notes": "CPR 1A_16 2027",
+      "source": "google-calendar:NetYParéo"
+    },
+    {
+      "id": "NetYParéo:_6cs3ecpk6gsj8cpo6op32d1g7504spbkb5o62sj5ds",
+      "title": "Gestion de l'alternance - BTS CPRP 1A_16_2027",
+      "start": "2026-05-29T08:30:00+02:00",
+      "end": "2026-05-29T10:00:00+02:00",
+      "status": "confirmed",
+      "location": "Angoulême Productique FAO",
+      "notes": "CPR 1A_16 2027",
+      "source": "google-calendar:NetYParéo"
+    },
+    {
+      "id": "NetYParéo:_6cs3ecpk6gsj8cpo6op32d1h6104spbkb5o62sj5ds",
+      "title": "Gestion de Production - BTS CPRP 1A_16_2027",
+      "start": "2026-05-29T10:00:00+02:00",
+      "end": "2026-05-29T12:00:00+02:00",
+      "status": "confirmed",
+      "location": "Angoulême Productique FAO",
+      "notes": "CPR 1A_16 2027",
+      "source": "google-calendar:NetYParéo"
+    },
+    {
+      "id": "NetYParéo:_6cs3ecpk6gsj8cpo6orj0dhm6p04spbkb5o62sj5ds",
+      "title": "Construction mécanique - BTS CPI 1A_16_2027",
+      "start": "2026-05-29T13:00:00+02:00",
+      "end": "2026-05-29T16:30:00+02:00",
+      "status": "confirmed",
+      "location": "Angoulême BE CPI",
+      "notes": "CPI 1A_16_2027",
+      "source": "google-calendar:NetYParéo"
+    }
+  ]
+}
