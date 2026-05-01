@@ -1,5 +1,6 @@
 # Local/runtime noise
 .openclaw/
+.secrets-backup/
 .DS_Store
 *.log
 *.tmp
