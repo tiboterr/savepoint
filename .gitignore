@@ -32,8 +32,9 @@ mission-control-arpagona/.next/
 mission-control-arpagona/.env*
 mission-control-arpagona/state/*.generated.json
 
-# Optional heavy local artifacts
+# Imported/exported archives and heavy local artifacts
+imports/
+HISTO GPT/
 *.sqlite
 *.sqlite-wal
 *.sqlite-shm
-HISTO GPT/chat.html
