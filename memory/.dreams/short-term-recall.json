@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-01T01:00:00.199Z",
+  "updatedAt": "2026-05-02T01:01:02.864Z",
   "entries": {
     "memory:memory/2026-04-28.md:1:4": {
       "key": "memory:memory/2026-04-28.md:1:4",
@@ -41,17 +41,18 @@
       "source": "memory",
       "snippet": "Import ChatGPT repris et structuré en plusieurs couches : export normalisé SQLite/JSONL, corpus high-value, corpus élite, docs markdown par conversation, catalogue léger pour OpenClaw, protocole low-token.; Option 1 validée pour OpenClaw : utiliser `memory/chatgpt-elite-catalog.m",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-01T01:00:00.199Z",
-      "lastRecalledAt": "2026-05-01T01:00:00.199Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
       "queryHashes": [
         "312dd0eab707"
       ],
       "recallDays": [
-        "2026-05-01"
+        "2026-05-01",
+        "2026-05-02"
       ],
       "conceptTags": [
         "gpt",
@@ -72,17 +73,18 @@
       "source": "memory",
       "snippet": "technique / OpenClaw personnalisé; perso profond / clarification de direction; synthèse transverse sur 3 docs perso profonds; Invariants personnels ressortis de l’historique ChatGPT :",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-01T01:00:00.199Z",
-      "lastRecalledAt": "2026-05-01T01:00:00.199Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
       "queryHashes": [
         "312dd0eab707"
       ],
       "recallDays": [
-        "2026-05-01"
+        "2026-05-01",
+        "2026-05-02"
       ],
       "conceptTags": [
         "gpt",
@@ -103,17 +105,18 @@
       "source": "memory",
       "snippet": "Thibaud cherche plus une vie choisie qu’une simple réussite abstraite.; Le désalignement semble venir d’un mix de douleur/charge mentale, pression financière, manque de temps perçu, et journées trop subies.; Le vrai risque long terme n’est pas un manque d’intelligence mais la dis",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-01T01:00:00.199Z",
-      "lastRecalledAt": "2026-05-01T01:00:00.199Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
       "queryHashes": [
         "312dd0eab707"
       ],
       "recallDays": [
-        "2026-05-01"
+        "2026-05-01",
+        "2026-05-02"
       ],
       "conceptTags": [
         "douleur/charge",
@@ -134,17 +137,18 @@
       "source": "memory",
       "snippet": "Les leviers profonds semblent être : stabilité émotionnelle, autonomie réelle, continuité d’effort, et réduction volontaire des options.; Retour vers ARPAGONA demandé ensuite, avec objectif explicite : construire un plan d’action très concret pour rendre l’entreprise rentable dan",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-01T01:00:00.199Z",
-      "lastRecalledAt": "2026-05-01T01:00:00.199Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
       "queryHashes": [
         "312dd0eab707"
       ],
       "recallDays": [
-        "2026-05-01"
+        "2026-05-01",
+        "2026-05-02"
       ],
       "conceptTags": [
         "leviers",
@@ -312,17 +316,18 @@
       "source": "memory",
       "snippet": "Thibaud wants to revisit later a workflow for exporting ChatGPT / OpenAI conversation data and importing it into OpenClaw as a knowledge base / RAG source. Waiting until he has time to export the OpenAI data.",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-01T01:00:00.199Z",
-      "lastRecalledAt": "2026-05-01T01:00:00.199Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
       "queryHashes": [
         "1174d07d7efc"
       ],
       "recallDays": [
-        "2026-05-01"
+        "2026-05-01",
+        "2026-05-02"
       ],
       "conceptTags": [
         "gpt",
@@ -343,17 +348,18 @@
       "source": "memory",
       "snippet": "Worked extensively on Langflow research and implementation for a synthetic executive-control / \"prefrontal\" architecture using LLMs.; Researched relevant papers and patterns: Tree of Thoughts, ReAct, Reflexion, MemGPT, multi-agent debate / multi-persona collaboration, agent archi",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-01T01:00:00.199Z",
-      "lastRecalledAt": "2026-05-01T01:00:00.199Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
       "queryHashes": [
         "9b4c3d373463"
       ],
       "recallDays": [
-        "2026-05-01"
+        "2026-05-01",
+        "2026-05-02"
       ],
       "conceptTags": [
         "gpt",
@@ -374,17 +380,18 @@
       "source": "memory",
       "snippet": "`Idea to Action Plan` — flow id `e1482d4c-d9d0-4be0-bd3e-0576b0798316`; `SPC v1 - Synthetic Prefrontal Column` — flow id `3ccb98b8-7d3a-401e-9e74-ebe015da921e`; `SPC v1.1 - Synthetic Prefrontal Column` — flow id `f2d82e97-bc7f-48a8-ad24-7b92130c75ba`; `SPC Eval - Inhibition` — fl",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-01T01:00:00.199Z",
-      "lastRecalledAt": "2026-05-01T01:00:00.199Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
       "queryHashes": [
         "9b4c3d373463"
       ],
       "recallDays": [
-        "2026-05-01"
+        "2026-05-01",
+        "2026-05-02"
       ],
       "conceptTags": [
         "v1.1",
@@ -405,17 +412,18 @@
       "source": "memory",
       "snippet": "`SPC Eval - Replanning` — flow id `bd390989-b92e-4a8a-aa2e-4b2f3072fe29`; `SPC Eval - Working Memory Stress` — flow id `ff10fe2c-fac6-4c30-a671-b4082a3137d6`; `SPC SANITY CHECK` — flow id `a8d74ab1-0335-4e77-9887-cb66f92a9b20`; `SPC SAFE TEST - PROMPTS ONLY` — created as a render",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-01T01:00:00.199Z",
-      "lastRecalledAt": "2026-05-01T01:00:00.199Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
       "queryHashes": [
         "9b4c3d373463"
       ],
       "recallDays": [
-        "2026-05-01"
+        "2026-05-01",
+        "2026-05-02"
       ],
       "conceptTags": [
         "spc",
@@ -436,17 +444,18 @@
       "source": "memory",
       "snippet": "Important technical discovery: local Langflow UI appears open without visible auth, but API endpoints for flow creation/import/run still required a Langflow API key.; Recovered a valid local Langflow API key from the local running instance to automate flow creation and testing.;",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-01T01:00:00.199Z",
-      "lastRecalledAt": "2026-05-01T01:00:00.199Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
       "queryHashes": [
         "9b4c3d373463"
       ],
       "recallDays": [
-        "2026-05-01"
+        "2026-05-01",
+        "2026-05-02"
       ],
       "conceptTags": [
         "creation/import/run",
@@ -467,17 +476,18 @@
       "source": "memory",
       "snippet": "Current status: `SPC SAFE TEST - PROMPTS ONLY` rendered correctly, confirming the safer path is to preserve a known-good template shape.; Rebuilt a renderer-safe version of the synthetic cortical column as `Synthetic Cortical Column - Stable` — flow id `778a6970-6205-407c-a8f1-20",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-01T01:00:00.199Z",
-      "lastRecalledAt": "2026-05-01T01:00:00.199Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
       "queryHashes": [
         "9b4c3d373463"
       ],
       "recallDays": [
-        "2026-05-01"
+        "2026-05-01",
+        "2026-05-02"
       ],
       "conceptTags": [
         "known-good",
@@ -498,17 +508,18 @@
       "source": "memory",
       "snippet": "`/home/thibaud/.openclaw/workspace/langflow/spc_prefrontal_column_v1.json`; `/home/thibaud/.openclaw/workspace/langflow/spc_prefrontal_column_v1_1.json`; `/home/thibaud/.openclaw/workspace/langflow/spc_benchmark_flows.json`; User asked explicitly that this work be remembered.",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-01T01:00:00.199Z",
-      "lastRecalledAt": "2026-05-01T01:00:00.199Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
       "queryHashes": [
         "9b4c3d373463"
       ],
       "recallDays": [
-        "2026-05-01"
+        "2026-05-01",
+        "2026-05-02"
       ],
       "conceptTags": [
         "home/thibaud",
@@ -519,6 +530,1814 @@
         "spc-prefrontal-column-v1",
         "spc-prefrontal-column-v1-1",
         "spc-benchmark-flows.json"
+      ]
+    },
+    "memory:memory/2026-05-01.md:3:6": {
+      "key": "memory:memory/2026-05-01.md:3:6",
+      "path": "memory/2026-05-01.md",
+      "startLine": 3,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "Thibaud launched a new major project: **Mission Control ARPAGONA**.; Mission Control ARPAGONA brief: build a local OpenClaw cockpit/dashboard using real workspace and runtime data, with first screens for Tasks, Calendar, Memory, Projects, Team, Docs, and Visual Office.; Strong pr",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "f16f2797a8f9"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "cockpit/dashboard",
+        "thibaud",
+        "launched",
+        "new",
+        "major",
+        "project",
+        "mission",
+        "control"
+      ]
+    },
+    "memory:memory/2026-05-01.md:7:10": {
+      "key": "memory:memory/2026-05-01.md:7:10",
+      "path": "memory/2026-05-01.md",
+      "startLine": 7,
+      "endLine": 10,
+      "source": "memory",
+      "snippet": "Initial workspace assessment found strong real data for Memory, Docs, and ARPAGONA business/project markdown; weak or sparse native data for Tasks, Calendar, Team structure, and Visual Office, which will require aggregation and/or later canonical local models.; There does not app",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "f16f2797a8f9"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "business/project",
+        "and/or",
+        "initial",
+        "assessment",
+        "found",
+        "strong",
+        "real",
+        "data"
+      ]
+    },
+    "memory:memory/2026-05-01.md:11:14": {
+      "key": "memory:memory/2026-05-01.md:11:14",
+      "path": "memory/2026-05-01.md",
+      "startLine": 11,
+      "endLine": 14,
+      "source": "memory",
+      "snippet": "Mission Control ARPAGONA V1 now has real data views for Memory, Docs, Projects, and Tasks, with lint/build passing.; The cockpit was upgraded from a single dashboard page into a multi-page structure: `/`, `/memory`, `/docs`, `/projects`, and `/tasks`.; Task aggregation was refine",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "f16f2797a8f9"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "lint/build",
+        "multi-page",
+        "mission",
+        "control",
+        "arpagona",
+        "now",
+        "has",
+        "real"
+      ]
+    },
+    "memory:memory/2026-05-01.md:15:18": {
+      "key": "memory:memory/2026-05-01.md:15:18",
+      "path": "memory/2026-05-01.md",
+      "startLine": 15,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "Mission Control overview was upgraded into a more operator-centric home with source readiness, next trigger, and live execution queue.; Team and Visual Office pages now use honest empty states tied to the canonical source files and schema reference instead of pretending data exis",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "f16f2797a8f9"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "operator-centric",
+        "mission",
+        "control",
+        "overview",
+        "was",
+        "upgraded",
+        "operator",
+        "centric"
+      ]
+    },
+    "memory:memory/2026-05-01.md:19:22": {
+      "key": "memory:memory/2026-05-01.md:19:22",
+      "path": "memory/2026-05-01.md",
+      "startLine": 19,
+      "endLine": 22,
+      "source": "memory",
+      "snippet": "Canonical local visual office state was populated with concrete functional spaces: Mission Control Cockpit, Calendar Feed, Memory Vault, and Execution Radar.; The Mission Control shell/UI was refined against the original brief and visual reference with a dotted-grid background, s",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "f16f2797a8f9"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "shell/ui",
+        "dotted-grid",
+        "canonical",
+        "local",
+        "visual",
+        "office",
+        "state",
+        "was"
+      ]
+    },
+    "memory:memory/2026-05-01.md:23:26": {
+      "key": "memory:memory/2026-05-01.md:23:26",
+      "path": "memory/2026-05-01.md",
+      "startLine": 23,
+      "endLine": 26,
+      "source": "memory",
+      "snippet": "Visual Office was refactored into a real company floor-plan metaphor with named rooms (Command Room, Sales Room, Operations Room, Build Lab, Calendar Room, Memory Library), agent presence by emoji, and task/progress context per room.; Mission Control ARPAGONA is now resumable as",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "f16f2797a8f9"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "floor-plan",
+        "task/progress",
+        "visual",
+        "office",
+        "was",
+        "refactored",
+        "real",
+        "company"
+      ]
+    },
+    "memory:memory/2026-05-01.md:27:30": {
+      "key": "memory:memory/2026-05-01.md:27:30",
+      "path": "memory/2026-05-01.md",
+      "startLine": 27,
+      "endLine": 30,
+      "source": "memory",
+      "snippet": "Canonical local state files established for future continuation: `state/calendar.json`, `state/team.json`, `state/visual-office.json`.; Team source currently contains Thibaud and GONA; Visual Office currently contains functional spaces rather than physical rooms.; Task system has",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "f16f2797a8f9"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "state/calendar.json",
+        "state/team.json",
+        "state/visual-office.json",
+        "canonical",
+        "local",
+        "state",
+        "established",
+        "future"
+      ]
+    },
+    "memory:memory/2026-05-01.md:31:32": {
+      "key": "memory:memory/2026-05-01.md:31:32",
+      "path": "memory/2026-05-01.md",
+      "startLine": 31,
+      "endLine": 32,
+      "source": "memory",
+      "snippet": "Remaining important work to continue later: stronger home-page iconic polish, Tasks V3 filters/grouping, richer Team model, more concrete Visual Office semantics, and tighter mission-control visual hierarchy across the cockpit.; Known operational command for calendar refresh: fro",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "f16f2797a8f9"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "home-page",
+        "filters/grouping",
+        "mission-control",
+        "remaining",
+        "important",
+        "continue",
+        "later",
+        "stronger"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "Assistant: 👋 Salon **contenu** prêt. Ici on construit les posts, scripts, articles, formations, angles éditoriaux et calendrier de publication.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "salon",
+        "contenu",
+        "prêt",
+        "ici",
+        "construit",
+        "posts",
+        "scripts",
+        "articles"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: 👋 Salon **roadmap** prêt. Ici on parle priorisation, jalons, trajectoire, arbitrages et séquencement des chantiers.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "salon",
+        "roadmap",
+        "prêt",
+        "ici",
+        "parle",
+        "priorisation",
+        "jalons",
+        "trajectoire"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "Assistant: 👋 Salon **business-dev** prêt. Ici on traite offre, prospection, pipeline, partenariats, pricing, closing et opportunités. Je peux t’aider à clarifier une stratégie, écrire des messages, structurer un pipeline ou prioriser.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "business-dev",
+        "salon",
+        "business",
+        "dev",
+        "prêt",
+        "ici",
+        "traite",
+        "offre"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "Assistant: Oui, bien reçu ici aussi. Je peux te faire une recherche ciblée sur les subventions mobilisables en Charente pour Arpagona (locales, régionales, innovation/création d’entreprise), puis te sortir une shortlist utile.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "innovation/création",
+        "oui",
+        "bien",
+        "reçu",
+        "ici",
+        "aussi",
+        "peux",
+        "faire"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "Assistant: Hey 👽",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "hey"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:6:6": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:6:6",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 6,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "User: Tu fais cette recherche ?",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "fais",
+        "cette",
+        "recherche"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:7:7": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:7:7",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 7,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "Assistant: Oui — envoie-moi juste le sujet ou le message à creuser, et je m’en charge.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "envoie-moi",
+        "oui",
+        "envoie",
+        "moi",
+        "juste",
+        "sujet",
+        "message",
+        "creuser"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:8:8": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:8:8",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 8,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "User: Oui, bien reçu ici aussi. Je peux te faire une recherche ciblée sur les subventions mobilisables en Charente pour Arpagona (locales, régionales, innovation/création d’entreprise), puis te sortir une shortlist utile.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "innovation/création",
+        "oui",
+        "bien",
+        "reçu",
+        "ici",
+        "aussi",
+        "peux",
+        "faire"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:9:9": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:9:9",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 9,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "Assistant: Je creuse les pistes locales/régionales, puis je te poste une shortlist propre avec ce qui semble vraiment mobilisable.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "locales/régionales",
+        "creuse",
+        "pistes",
+        "locales",
+        "régionales",
+        "puis",
+        "poste",
+        "shortlist"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:10:10": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:10:10",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 10,
+      "endLine": 10,
+      "source": "memory",
+      "snippet": "Assistant: Oui — 1er passage utile pour Arpagona en Charente / Nouvelle-Aquitaine : 1) **Pass Start-Up (Région Nouvelle-Aquitaine)** - Pour jeunes boîtes innovantes de moins de 5 ans - Mini **40 k€ de fonds propres** - **Subvention jusqu’à 50%** du besoin éligible - Bonus **+10 k",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "nouvelle-aquitaine",
+        "start-up",
+        "oui",
+        "1er",
+        "passage",
+        "utile",
+        "arpagona",
+        "charente"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:11:11": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:11:11",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 11,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "Assistant: annoncé : plutôt **long** (la région parle de plusieurs mois) - **Point important** : les activités principalement **conseil / prestations informatiques / formation** sont indiquées comme **non éligibles** <https://les-aides.nouvelle-aquitaine.fr/economie-et-emploi/inv",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "annoncé",
+        "plutôt",
+        "région",
+        "parle",
+        "plusieurs",
+        "mois",
+        "point",
+        "important"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:12:12": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:12:12",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 12,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "Assistant: couverture jusqu’à **50%** des dépenses éligibles (et parfois plus selon catégorie) - Très pertinent si Arpagona porte un **produit / techno / brique IA** avec vraie R&D <https://www.bpifrance.fr/catalogue-offres/subvention-innovation> 5) **France 2030 – Projets d’inno",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "couverture",
+        "jusqu’à",
+        "dépenses",
+        "éligibles",
+        "parfois",
+        "plus",
+        "selon",
+        "catégorie"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:13:13": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:13:13",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 13,
+      "endLine": 13,
+      "source": "memory",
+      "snippet": "Assistant: subvention locale évidente “plug-and-play” - Donc pour le local, je regarderais surtout : **CCI Charente + agglo d’implantation** (GrandAngoulême / Cognac / autre), car certaines aides sont très territoriales et changent selon la commune ou la zone <https://www.charent",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "plug-and-play",
+        "www.charent",
+        "subvention",
+        "locale",
+        "évidente",
+        "plug",
+        "play",
+        "donc"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:14:14": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:14:14",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 14,
+      "endLine": 14,
+      "source": "memory",
+      "snippet": "Assistant: 2 : **shortlist ultra-pratique “éligible / peut-être / peu probable” pour Arpagona**, en fonction de 4 critères : - âge de la société - CA - fonds propres - part produit vs service/prestation",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "ultra-pratique",
+        "peut-être",
+        "service/prestation",
+        "shortlist",
+        "ultra",
+        "pratique",
+        "éligible",
+        "peut"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:15:15": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:15:15",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 15,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "Assistant: 👋 Salon **idees** prêt. Ici on capture les intuitions, pistes créatives, nouveaux produits, angles et explorations. Je peux t’aider à faire émerger les meilleures idées puis à séparer le prometteur du gadget.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "salon",
+        "idees",
+        "prêt",
+        "ici",
+        "capture",
+        "intuitions",
+        "pistes",
+        "créatives"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:16:16": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:16:16",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 16,
+      "endLine": 16,
+      "source": "memory",
+      "snippet": "Assistant: 👋 Salon **veille-techno** prêt. Ici on parle outils, IA, articles, benchmarks, découvertes, tendances et expérimentations. Je peux t’aider à résumer, comparer, challenger ou extraire l’utile du bruit.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "veille-techno",
+        "salon",
+        "veille",
+        "techno",
+        "prêt",
+        "ici",
+        "parle",
+        "outils"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:17:17": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:17:17",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 17,
+      "endLine": 17,
+      "source": "memory",
+      "snippet": "Assistant: 👋 Salon **daily-chat** prêt. Ici on traite le quotidien : priorités du jour, blocages, arbitrages rapides, coordination et suivi léger. Tu peux m’y parler comme à un copilote d’exécution.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "daily-chat",
+        "salon",
+        "chat",
+        "prêt",
+        "ici",
+        "traite",
+        "quotidien",
+        "priorités"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:18:18": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:18:18",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 18,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "Assistant: Oui, je te reçois ici aussi 👌 Et oui, la logique par salons est bonne : ça rend les échanges beaucoup plus faciles à retrouver et à réutiliser par sujet.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "oui",
+        "reçois",
+        "ici",
+        "aussi",
+        "logique",
+        "par",
+        "salons",
+        "bonne"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:19:19": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:19:19",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 19,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "Assistant: 👋 Salon **projets** prêt. Ici on suit l’exécution : avancement, specs, décisions, roadmap, bugs, organisation et prochaines étapes. C’est le bon endroit pour transformer une idée floue en plan concret.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "salon",
+        "projets",
+        "prêt",
+        "ici",
+        "suit",
+        "l’exécution",
+        "avancement",
+        "specs"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:20:20": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:20:20",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 20,
+      "endLine": 20,
+      "source": "memory",
+      "snippet": "Assistant: 👋 Salon **sales-pipeline** prêt. Ici on suit les leads, la qualification, les relances, le statut des deals et les prochaines actions commerciales.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "sales-pipeline",
+        "salon",
+        "sales",
+        "pipeline",
+        "prêt",
+        "ici",
+        "suit",
+        "leads"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:21:21": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:21:21",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 21,
+      "endLine": 21,
+      "source": "memory",
+      "snippet": "Assistant: ✅ New session started.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "new",
+        "started"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:22:22": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:22:22",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 22,
+      "endLine": 22,
+      "source": "memory",
+      "snippet": "User: peux tu creer différent salon sur notre discord pour avoir différente seesion en fonction des activité ? comme, daily chat, veille techno, business dev...",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "peux",
+        "creer",
+        "différent",
+        "salon",
+        "notre",
+        "discord",
+        "avoir",
+        "différente"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:23:23": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:23:23",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 23,
+      "endLine": 23,
+      "source": "memory",
+      "snippet": "Assistant: Je regarde d’abord le serveur Discord accessible ici pour créer ça proprement.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "regarde",
+        "d’abord",
+        "serveur",
+        "discord",
+        "accessible",
+        "ici",
+        "créer",
+        "proprement"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:24:24": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:24:24",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 24,
+      "endLine": 24,
+      "source": "memory",
+      "snippet": "Assistant: Oui 👍 Il me manque juste **le serveur Discord ciblé** pour éviter de créer ça au mauvais endroit. Envoie-moi soit : - **l’ID du serveur (guildId)**, ou - dis-moi **quel serveur** si plusieurs sont connectés. Si tu veux, je peux te proposer une structure simple de dépa",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "envoie-moi",
+        "dis-moi",
+        "oui",
+        "manque",
+        "juste",
+        "serveur",
+        "discord",
+        "ciblé"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:25:25": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:25:25",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 25,
+      "endLine": 25,
+      "source": "memory",
+      "snippet": "User: on a un seul serveur ou on echange. il doit etre parametré",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "seul",
+        "serveur",
+        "echange",
+        "doit",
+        "etre",
+        "parametré"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:26:26": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:26:26",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 26,
+      "endLine": 26,
+      "source": "memory",
+      "snippet": "Assistant: Probablement oui, mais je ne peux pas deviner lequel depuis ici : l’outil Discord me demande quand même un **guildId** explicite. En pratique, il me faut juste **l’ID du serveur**. Si tu ne l’as pas sous la main, fais l’un de ces trucs : - Discord → clic droit sur le s",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "probablement",
+        "oui",
+        "mais",
+        "peux",
+        "pas",
+        "deviner",
+        "lequel",
+        "depuis"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:27:27": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:27:27",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 27,
+      "endLine": 27,
+      "source": "memory",
+      "snippet": "User: 1496502214879871057",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": []
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:28:28": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:28:28",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 28,
+      "endLine": 28,
+      "source": "memory",
+      "snippet": "Assistant: Je te le crée avec une structure simple et propre.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "crée",
+        "structure",
+        "simple",
+        "propre"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:29:29": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:29:29",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 29,
+      "endLine": 29,
+      "source": "memory",
+      "snippet": "Assistant: Je suis bloqué par les permissions Discord : **Missing Permissions** au moment de créer la catégorie. Il faut donner au bot/compte OpenClaw sur ce serveur un rôle avec au minimum : - **Manage Channels / Gérer les salons** Idéalement aussi : - **View Channels** - **Send",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "bot/compte",
+        "suis",
+        "bloqué",
+        "par",
+        "permissions",
+        "discord",
+        "missing",
+        "moment"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:30:30": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:30:30",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 30,
+      "endLine": 30,
+      "source": "memory",
+      "snippet": "User: dit moi ou cliquer",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "dit",
+        "moi",
+        "cliquer"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:31:31": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:31:31",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 31,
+      "endLine": 31,
+      "source": "memory",
+      "snippet": "Assistant: Oui. Dans Discord : 1. Ouvre **ton serveur** 2. Clique sur le **nom du serveur** en haut à gauche 3. **Paramètres du serveur** 4. Va dans **Rôles** 5. Trouve le rôle du bot / compte **OpenClaw** - ou va dans **Membres** si besoin pour voir quel rôle il a 6. Dans ce rôl",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "oui",
+        "discord",
+        "ouvre",
+        "ton",
+        "serveur",
+        "clique",
+        "nom",
+        "haut"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:32:32": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:32:32",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 32,
+      "endLine": 32,
+      "source": "memory",
+      "snippet": "Assistant: restrictions spéciales Quand c’est fait, écris juste **“ok”** et je retente.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "restrictions",
+        "spéciales",
+        "quand",
+        "c’est",
+        "fait",
+        "écris",
+        "juste",
+        "retente"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:33:33": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:33:33",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 33,
+      "endLine": 33,
+      "source": "memory",
+      "snippet": "Assistant: 👋 Salon **admin** prêt. Ici on traite l’organisation interne, les accès, l’ops, les réglages, l’automatisation et les décisions structurelles.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "salon",
+        "admin",
+        "prêt",
+        "ici",
+        "traite",
+        "l’organisation",
+        "interne",
+        "accès"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:34:34": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:34:34",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 34,
+      "endLine": 34,
+      "source": "memory",
+      "snippet": "User: Tu peux reverifier? Toujours pas de retour dans les autre semaines salon",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "peux",
+        "reverifier",
+        "toujours",
+        "pas",
+        "retour",
+        "autre",
+        "semaines",
+        "salon"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:35:35": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:35:35",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 35,
+      "endLine": 35,
+      "source": "memory",
+      "snippet": "Assistant: Oui, je viens de revérifier. Réponse OK dans : - #daily-chat - #veille-techno - #business-dev Pas de retour après tes messages dans les autres salons que j’ai contrôlés : - #projets - #idees - #ressources - #admin - #sales-pipeline - #contenu - #roadmap Donc oui, le so",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "daily-chat",
+        "veille-techno",
+        "business-dev",
+        "sales-pipeline",
+        "oui",
+        "viens",
+        "revérifier",
+        "réponse"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:36:36": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:36:36",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 36,
+      "endLine": 36,
+      "source": "memory",
+      "snippet": "Assistant: 👋 Salon **ressources** prêt. Ici on stocke les liens, docs, templates, assets, prompts et références utiles. Je peux t’aider à organiser, résumer et retrouver ce qui compte.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "salon",
+        "ressources",
+        "prêt",
+        "ici",
+        "stocke",
+        "liens",
+        "docs",
+        "templates"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:37:37": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:37:37",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 37,
+      "endLine": 37,
+      "source": "memory",
+      "snippet": "User: jai mis toutes lers autorisations",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "jai",
+        "mis",
+        "toutes",
+        "lers",
+        "autorisations"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:38:38": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:38:38",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 38,
+      "endLine": 38,
+      "source": "memory",
+      "snippet": "Assistant: Je retente maintenant.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "retente",
+        "maintenant"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:39:39": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:39:39",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 39,
+      "endLine": 39,
+      "source": "memory",
+      "snippet": "Assistant: C’est bon 👌 J’ai créé la catégorie **Sessions de travail** avec : - **daily-chat** - **veille-techno** - **business-dev** - **projets** - **idees** - **ressources** Si tu veux, je peux faire le next step utile : - ajouter des **descriptions / topics** à chaque salon -",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "daily-chat",
+        "veille-techno",
+        "business-dev",
+        "c’est",
+        "bon",
+        "j’ai",
+        "créé",
+        "catégorie"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:40:40": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:40:40",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 40,
+      "endLine": 40,
+      "source": "memory",
+      "snippet": "User: Oui fais cela.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "oui",
+        "fais",
+        "cela"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:41:41": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:41:41",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 41,
+      "endLine": 41,
+      "source": "memory",
+      "snippet": "Assistant: Je peux, mais là il y a une ambiguïté. Tu veux que je fasse lequel de ces 3 trucs : 1. **ajouter les descriptions / topics** aux salons existants 2. **créer de nouveaux salons** (`admin`, `roadmap`, `contenu`, `sales-pipeline`) 3. **les deux** Je te recommande **3** —",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "sales-pipeline",
+        "peux",
+        "mais",
+        "ambiguïté",
+        "veux",
+        "fasse",
+        "lequel",
+        "ces"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:42:42": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:42:42",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 42,
+      "endLine": 42,
+      "source": "memory",
+      "snippet": "User: et verifie que je puisse te parler dans chacun des salon, et que tu saches quoi repondre en fonction du salon quel sujet on traite dans tel ou tel salon",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "verifie",
+        "puisse",
+        "parler",
+        "chacun",
+        "salon",
+        "saches",
+        "quoi",
+        "repondre"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:43:43": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:43:43",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 43,
+      "endLine": 43,
+      "source": "memory",
+      "snippet": "Assistant: Je vais structurer ça proprement : topics par salon + petit message d’amorce dans chacun pour vérifier que je peux y parler et cadrer l’usage.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "vais",
+        "structurer",
+        "proprement",
+        "topics",
+        "par",
+        "salon",
+        "petit",
+        "message"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:44:44": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:44:44",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 44,
+      "endLine": 44,
+      "source": "memory",
+      "snippet": "Assistant: C’est fait 👌 J’ai : - ajouté un **topic** à chaque salon - envoyé un **message de cadrage** dans chacun - vérifié au passage que **je peux bien parler dans tous ces salons** Donc oui : **tu peux m’écrire dans chacun** et je peux répondre dedans. Sur le fond, voilà com",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "c’est",
+        "fait",
+        "j’ai",
+        "ajouté",
+        "topic",
+        "chaque",
+        "salon",
+        "envoyé"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:45:45": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:45:45",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 45,
+      "endLine": 45,
+      "source": "memory",
+      "snippet": "Assistant: avec le nom + le topic + l’historique local du canal. Mais je ne “change pas de cerveau” magiquement par salon : si tu veux, je peux encore améliorer ça en ajoutant des **consignes ultra claires dans les topics** ou un **message épinglé** par salon, pour ancrer le rôle",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "nom",
+        "topic",
+        "l’historique",
+        "local",
+        "canal",
+        "mais",
+        "change",
+        "pas"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:46:46": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:46:46",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 46,
+      "endLine": 46,
+      "source": "memory",
+      "snippet": "User: ajouter les descriptions / topics aux salons existants créer de nouveaux salons (admin, roadmap, contenu, sales-pipeline)",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "sales-pipeline",
+        "ajouter",
+        "descriptions",
+        "topics",
+        "salons",
+        "existants",
+        "créer",
+        "nouveaux"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:47:47": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:47:47",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 47,
+      "endLine": 47,
+      "source": "memory",
+      "snippet": "Assistant: Je complète ça maintenant : topics utiles sur les salons existants, puis j’ajoute les nouveaux salons demandés.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "complète",
+        "maintenant",
+        "topics",
+        "utiles",
+        "salons",
+        "existants",
+        "puis",
+        "j’ajoute"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:48:48": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:48:48",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 48,
+      "endLine": 48,
+      "source": "memory",
+      "snippet": "Assistant: C’est fait. J’ai : - ajouté des **topics** à **général** et **alerts-channel** - créé : - **admin** - **roadmap** - **contenu** - **sales-pipeline** - ajouté un **topic** à chacun - envoyé un **message d’amorce** dedans pour vérifier que je peux bien parler dans ces sa",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "alerts-channel",
+        "sales-pipeline",
+        "c’est",
+        "fait",
+        "j’ai",
+        "ajouté",
+        "topics",
+        "général"
+      ]
+    },
+    "memory:memory/2026-05-01.md:1:12": {
+      "key": "memory:memory/2026-05-01.md:1:12",
+      "path": "memory/2026-05-01.md",
+      "startLine": 1,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "# 2026-05-01 - Thibaud launched a new major project: **Mission Control ARPAGONA**. - Mission Control ARPAGONA brief: build a local OpenClaw cockpit/dashboard using real workspace and runtime data, with first screens for Tasks, Calendar, Memory, Projects, Team, Docs, and Visual Office. - Strong product constraint: no mock data; the UI must expose the real operational truth of the local OpenClaw system. - Desired stack for Mission Control ARPAGONA: Next.js (App Router), Tailwind CSS, shadcn/ui, localhost, filesystem-first storage, direct read/write to the OpenClaw workspace. - Initial workspace assessment found strong real data for Memory, Docs, and ARPAGONA business/project markdown; weak or",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.48264839649200436,
+      "maxScore": 0.48264839649200436,
+      "firstRecalledAt": "2026-05-02T01:01:02.864Z",
+      "lastRecalledAt": "2026-05-02T01:01:02.864Z",
+      "queryHashes": [
+        "4e2b1e3147d1"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "router",
+        "cockpit/dashboard",
+        "next.js",
+        "shadcn/ui",
+        "filesystem-first",
+        "read/write",
+        "business/project",
+        "thibaud"
+      ]
+    },
+    "memory:memory/2026-05-01.md:10:20": {
+      "key": "memory:memory/2026-05-01.md:10:20",
+      "path": "memory/2026-05-01.md",
+      "startLine": 10,
+      "endLine": 20,
+      "source": "memory",
+      "snippet": "- Built the first working `mission-control-arpagona` app locally with Next.js, Tailwind, and shadcn/ui. - Mission Control ARPAGONA V1 now has real data views for Memory, Docs, Projects, and Tasks, with lint/build passing. - The cockpit was upgraded from a single dashboard page into a multi-page structure: `/`, `/memory`, `/docs`, `/projects`, and `/tasks`. - Task aggregation was refined to separate `live` execution signals from `archive` backlog so the operator view is less noisy. - Google Calendar sync was successfully connected and now aggregates all visible Google calendars into the canonical local source `state/calendar.json`. - Mission Control overview was upgraded into a more operator-",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.4653440952301025,
+      "maxScore": 0.4653440952301025,
+      "firstRecalledAt": "2026-05-02T01:01:02.864Z",
+      "lastRecalledAt": "2026-05-02T01:01:02.864Z",
+      "queryHashes": [
+        "4e2b1e3147d1"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "mission-control-arpagona",
+        "next.js",
+        "shadcn/ui",
+        "lint/build",
+        "multi-page",
+        "state/calendar.json",
+        "built",
+        "first"
+      ]
+    },
+    "memory:memory/2026-05-01.md:19:27": {
+      "key": "memory:memory/2026-05-01.md:19:27",
+      "path": "memory/2026-05-01.md",
+      "startLine": 19,
+      "endLine": 27,
+      "source": "memory",
+      "snippet": "- Canonical local visual office state was populated with concrete functional spaces: Mission Control Cockpit, Calendar Feed, Memory Vault, and Execution Radar. - The Mission Control shell/UI was refined against the original brief and visual reference with a dotted-grid background, stronger top navigation, more atmospheric hero styling, and a clearer control-room feel. - CODE delegation was repaired end-to-end: Ollama provider configured in OpenClaw, incompatible thinking flag removed, and smoke test passed successfully. - Team was upgraded with emoji-bearing agents (Thibaud, GONA, ARPA LOCO, CODE) including room presence, current task, and progress fields. - Visual Office was refactored into",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.4521262526512146,
+      "maxScore": 0.4521262526512146,
+      "firstRecalledAt": "2026-05-02T01:01:02.864Z",
+      "lastRecalledAt": "2026-05-02T01:01:02.864Z",
+      "queryHashes": [
+        "4e2b1e3147d1"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "shell/ui",
+        "dotted-grid",
+        "control-room",
+        "end-to-end",
+        "emoji-bearing",
+        "canonical",
+        "local",
+        "visual"
+      ]
+    },
+    "memory:memory/2026-05-01.md:26:33": {
+      "key": "memory:memory/2026-05-01.md:26:33",
+      "path": "memory/2026-05-01.md",
+      "startLine": 26,
+      "endLine": 33,
+      "source": "memory",
+      "snippet": "- Real-data integrations currently active: workspace memory/docs/project files, live/archive task extraction, and Google Calendar sync into `state/calendar.json` from all visible Google calendars. - Canonical local state files established for future continuation: `state/calendar.json`, `state/team.json`, `state/visual-office.json`. - Team source currently contains Thibaud and GONA; Visual Office currently contains functional spaces rather than physical rooms. - Task system has reached a V2 state with live/archive split, category tagging, priority tagging, and score-based ordering. - Calendar UI now groups synced events by day and source calendar and is one of the strongest screens in the cur",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.4182715266942978,
+      "maxScore": 0.4182715266942978,
+      "firstRecalledAt": "2026-05-02T01:01:02.864Z",
+      "lastRecalledAt": "2026-05-02T01:01:02.864Z",
+      "queryHashes": [
+        "4e2b1e3147d1"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "real-data",
+        "memory/docs/project",
+        "live/archive",
+        "state/calendar.json",
+        "state/team.json",
+        "state/visual-office.json",
+        "score-based",
+        "real"
       ]
     }
   }

@@ -2,17 +2,33 @@
   "meta": {
     "name": "Mission Control Decisions",
     "description": "Canonical local decision state for Mission Control ARPAGONA.",
-    "updatedAt": "2026-05-01T13:55:50.221Z"
+    "updatedAt": "2026-05-01T14:38:14.813Z"
   },
   "current": {
-    "promptId": "secondary-calendar-2026-05-01T13",
+    "promptId": "secondary-calendar-2026-05-01T14",
     "kind": "secondary",
     "question": "Quel rapport veux-tu entre l’agenda et l’exécution ?",
     "selectedOptionId": "ignore-calendar-noise",
     "selectedLabel": "Protéger le focus malgré l’agenda",
-    "selectedAt": "2026-05-01T13:55:50.221Z"
+    "selectedAt": "2026-05-01T14:38:14.813Z"
   },
   "history": [
+    {
+      "promptId": "secondary-calendar-2026-05-01T14",
+      "kind": "secondary",
+      "question": "Quel rapport veux-tu entre l’agenda et l’exécution ?",
+      "selectedOptionId": "ignore-calendar-noise",
+      "selectedLabel": "Protéger le focus malgré l’agenda",
+      "selectedAt": "2026-05-01T14:38:14.813Z"
+    },
+    {
+      "promptId": "secondary-calendar-2026-05-01T14",
+      "kind": "secondary",
+      "question": "Quel rapport veux-tu entre l’agenda et l’exécution ?",
+      "selectedOptionId": "schedule-calendar-review",
+      "selectedLabel": "Faire primer l’agenda",
+      "selectedAt": "2026-05-01T14:38:08.836Z"
+    },
     {
       "promptId": "secondary-calendar-2026-05-01T13",
       "kind": "secondary",
