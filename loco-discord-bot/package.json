@@ -1,0 +1,16 @@
+{
+  "name": "loco-discord-bot",
+  "version": "0.1.0",
+  "description": "Discord bot for LOCO powered by a GLM model via an OpenAI-compatible API",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.21.0",
+    "dotenv": "^16.6.1",
+    "openai": "^4.104.0"
+  }
+}

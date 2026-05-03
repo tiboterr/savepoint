@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-02T01:01:02.864Z",
+  "updatedAt": "2026-05-03T01:00:00.262Z",
   "entries": {
     "memory:memory/2026-04-28.md:1:4": {
       "key": "memory:memory/2026-04-28.md:1:4",
@@ -41,18 +41,19 @@
       "source": "memory",
       "snippet": "Import ChatGPT repris et structuré en plusieurs couches : export normalisé SQLite/JSONL, corpus high-value, corpus élite, docs markdown par conversation, catalogue léger pour OpenClaw, protocole low-token.; Option 1 validée pour OpenClaw : utiliser `memory/chatgpt-elite-catalog.m",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-01T01:00:00.199Z",
-      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
       "queryHashes": [
         "312dd0eab707"
       ],
       "recallDays": [
         "2026-05-01",
-        "2026-05-02"
+        "2026-05-02",
+        "2026-05-03"
       ],
       "conceptTags": [
         "gpt",
@@ -73,18 +74,19 @@
       "source": "memory",
       "snippet": "technique / OpenClaw personnalisé; perso profond / clarification de direction; synthèse transverse sur 3 docs perso profonds; Invariants personnels ressortis de l’historique ChatGPT :",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-01T01:00:00.199Z",
-      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
       "queryHashes": [
         "312dd0eab707"
       ],
       "recallDays": [
         "2026-05-01",
-        "2026-05-02"
+        "2026-05-02",
+        "2026-05-03"
       ],
       "conceptTags": [
         "gpt",
@@ -105,18 +107,19 @@
       "source": "memory",
       "snippet": "Thibaud cherche plus une vie choisie qu’une simple réussite abstraite.; Le désalignement semble venir d’un mix de douleur/charge mentale, pression financière, manque de temps perçu, et journées trop subies.; Le vrai risque long terme n’est pas un manque d’intelligence mais la dis",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-01T01:00:00.199Z",
-      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
       "queryHashes": [
         "312dd0eab707"
       ],
       "recallDays": [
         "2026-05-01",
-        "2026-05-02"
+        "2026-05-02",
+        "2026-05-03"
       ],
       "conceptTags": [
         "douleur/charge",
@@ -137,18 +140,19 @@
       "source": "memory",
       "snippet": "Les leviers profonds semblent être : stabilité émotionnelle, autonomie réelle, continuité d’effort, et réduction volontaire des options.; Retour vers ARPAGONA demandé ensuite, avec objectif explicite : construire un plan d’action très concret pour rendre l’entreprise rentable dan",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-01T01:00:00.199Z",
-      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
       "queryHashes": [
         "312dd0eab707"
       ],
       "recallDays": [
         "2026-05-01",
-        "2026-05-02"
+        "2026-05-02",
+        "2026-05-03"
       ],
       "conceptTags": [
         "leviers",
@@ -316,18 +320,19 @@
       "source": "memory",
       "snippet": "Thibaud wants to revisit later a workflow for exporting ChatGPT / OpenAI conversation data and importing it into OpenClaw as a knowledge base / RAG source. Waiting until he has time to export the OpenAI data.",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-01T01:00:00.199Z",
-      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
       "queryHashes": [
         "1174d07d7efc"
       ],
       "recallDays": [
         "2026-05-01",
-        "2026-05-02"
+        "2026-05-02",
+        "2026-05-03"
       ],
       "conceptTags": [
         "gpt",
@@ -348,18 +353,19 @@
       "source": "memory",
       "snippet": "Worked extensively on Langflow research and implementation for a synthetic executive-control / \"prefrontal\" architecture using LLMs.; Researched relevant papers and patterns: Tree of Thoughts, ReAct, Reflexion, MemGPT, multi-agent debate / multi-persona collaboration, agent archi",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-01T01:00:00.199Z",
-      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
       "queryHashes": [
         "9b4c3d373463"
       ],
       "recallDays": [
         "2026-05-01",
-        "2026-05-02"
+        "2026-05-02",
+        "2026-05-03"
       ],
       "conceptTags": [
         "gpt",
@@ -380,18 +386,19 @@
       "source": "memory",
       "snippet": "`Idea to Action Plan` — flow id `e1482d4c-d9d0-4be0-bd3e-0576b0798316`; `SPC v1 - Synthetic Prefrontal Column` — flow id `3ccb98b8-7d3a-401e-9e74-ebe015da921e`; `SPC v1.1 - Synthetic Prefrontal Column` — flow id `f2d82e97-bc7f-48a8-ad24-7b92130c75ba`; `SPC Eval - Inhibition` — fl",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-01T01:00:00.199Z",
-      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
       "queryHashes": [
         "9b4c3d373463"
       ],
       "recallDays": [
         "2026-05-01",
-        "2026-05-02"
+        "2026-05-02",
+        "2026-05-03"
       ],
       "conceptTags": [
         "v1.1",
@@ -412,18 +419,19 @@
       "source": "memory",
       "snippet": "`SPC Eval - Replanning` — flow id `bd390989-b92e-4a8a-aa2e-4b2f3072fe29`; `SPC Eval - Working Memory Stress` — flow id `ff10fe2c-fac6-4c30-a671-b4082a3137d6`; `SPC SANITY CHECK` — flow id `a8d74ab1-0335-4e77-9887-cb66f92a9b20`; `SPC SAFE TEST - PROMPTS ONLY` — created as a render",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-01T01:00:00.199Z",
-      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
       "queryHashes": [
         "9b4c3d373463"
       ],
       "recallDays": [
         "2026-05-01",
-        "2026-05-02"
+        "2026-05-02",
+        "2026-05-03"
       ],
       "conceptTags": [
         "spc",
@@ -444,18 +452,19 @@
       "source": "memory",
       "snippet": "Important technical discovery: local Langflow UI appears open without visible auth, but API endpoints for flow creation/import/run still required a Langflow API key.; Recovered a valid local Langflow API key from the local running instance to automate flow creation and testing.;",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-01T01:00:00.199Z",
-      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
       "queryHashes": [
         "9b4c3d373463"
       ],
       "recallDays": [
         "2026-05-01",
-        "2026-05-02"
+        "2026-05-02",
+        "2026-05-03"
       ],
       "conceptTags": [
         "creation/import/run",
@@ -476,18 +485,19 @@
       "source": "memory",
       "snippet": "Current status: `SPC SAFE TEST - PROMPTS ONLY` rendered correctly, confirming the safer path is to preserve a known-good template shape.; Rebuilt a renderer-safe version of the synthetic cortical column as `Synthetic Cortical Column - Stable` — flow id `778a6970-6205-407c-a8f1-20",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-01T01:00:00.199Z",
-      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
       "queryHashes": [
         "9b4c3d373463"
       ],
       "recallDays": [
         "2026-05-01",
-        "2026-05-02"
+        "2026-05-02",
+        "2026-05-03"
       ],
       "conceptTags": [
         "known-good",
@@ -508,18 +518,19 @@
       "source": "memory",
       "snippet": "`/home/thibaud/.openclaw/workspace/langflow/spc_prefrontal_column_v1.json`; `/home/thibaud/.openclaw/workspace/langflow/spc_prefrontal_column_v1_1.json`; `/home/thibaud/.openclaw/workspace/langflow/spc_benchmark_flows.json`; User asked explicitly that this work be remembered.",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-01T01:00:00.199Z",
-      "lastRecalledAt": "2026-05-02T01:00:00.894Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
       "queryHashes": [
         "9b4c3d373463"
       ],
       "recallDays": [
         "2026-05-01",
-        "2026-05-02"
+        "2026-05-02",
+        "2026-05-03"
       ],
       "conceptTags": [
         "home/thibaud",
@@ -2223,15 +2234,16 @@
       "endLine": 12,
       "source": "memory",
       "snippet": "# 2026-05-01 - Thibaud launched a new major project: **Mission Control ARPAGONA**. - Mission Control ARPAGONA brief: build a local OpenClaw cockpit/dashboard using real workspace and runtime data, with first screens for Tasks, Calendar, Memory, Projects, Team, Docs, and Visual Office. - Strong product constraint: no mock data; the UI must expose the real operational truth of the local OpenClaw system. - Desired stack for Mission Control ARPAGONA: Next.js (App Router), Tailwind CSS, shadcn/ui, localhost, filesystem-first storage, direct read/write to the OpenClaw workspace. - Initial workspace assessment found strong real data for Memory, Docs, and ARPAGONA business/project markdown; weak or",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.48264839649200436,
+      "totalScore": 0.8974872052669525,
       "maxScore": 0.48264839649200436,
       "firstRecalledAt": "2026-05-02T01:01:02.864Z",
-      "lastRecalledAt": "2026-05-02T01:01:02.864Z",
+      "lastRecalledAt": "2026-05-02T19:14:08.123Z",
       "queryHashes": [
-        "4e2b1e3147d1"
+        "4e2b1e3147d1",
+        "fbc51c86f2ea"
       ],
       "recallDays": [
         "2026-05-02"
@@ -2254,15 +2266,16 @@
       "endLine": 20,
       "source": "memory",
       "snippet": "- Built the first working `mission-control-arpagona` app locally with Next.js, Tailwind, and shadcn/ui. - Mission Control ARPAGONA V1 now has real data views for Memory, Docs, Projects, and Tasks, with lint/build passing. - The cockpit was upgraded from a single dashboard page into a multi-page structure: `/`, `/memory`, `/docs`, `/projects`, and `/tasks`. - Task aggregation was refined to separate `live` execution signals from `archive` backlog so the operator view is less noisy. - Google Calendar sync was successfully connected and now aggregates all visible Google calendars into the canonical local source `state/calendar.json`. - Mission Control overview was upgraded into a more operator-",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.4653440952301025,
+      "totalScore": 0.8695739328861236,
       "maxScore": 0.4653440952301025,
       "firstRecalledAt": "2026-05-02T01:01:02.864Z",
-      "lastRecalledAt": "2026-05-02T01:01:02.864Z",
+      "lastRecalledAt": "2026-05-02T19:14:08.123Z",
       "queryHashes": [
-        "4e2b1e3147d1"
+        "4e2b1e3147d1",
+        "fbc51c86f2ea"
       ],
       "recallDays": [
         "2026-05-02"
@@ -2285,15 +2298,16 @@
       "endLine": 27,
       "source": "memory",
       "snippet": "- Canonical local visual office state was populated with concrete functional spaces: Mission Control Cockpit, Calendar Feed, Memory Vault, and Execution Radar. - The Mission Control shell/UI was refined against the original brief and visual reference with a dotted-grid background, stronger top navigation, more atmospheric hero styling, and a clearer control-room feel. - CODE delegation was repaired end-to-end: Ollama provider configured in OpenClaw, incompatible thinking flag removed, and smoke test passed successfully. - Team was upgraded with emoji-bearing agents (Thibaud, GONA, ARPA LOCO, CODE) including room presence, current task, and progress fields. - Visual Office was refactored into",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.4521262526512146,
+      "totalScore": 0.8445702522993088,
       "maxScore": 0.4521262526512146,
       "firstRecalledAt": "2026-05-02T01:01:02.864Z",
-      "lastRecalledAt": "2026-05-02T01:01:02.864Z",
+      "lastRecalledAt": "2026-05-02T19:14:08.123Z",
       "queryHashes": [
-        "4e2b1e3147d1"
+        "4e2b1e3147d1",
+        "fbc51c86f2ea"
       ],
       "recallDays": [
         "2026-05-02"
@@ -2316,15 +2330,16 @@
       "endLine": 33,
       "source": "memory",
       "snippet": "- Real-data integrations currently active: workspace memory/docs/project files, live/archive task extraction, and Google Calendar sync into `state/calendar.json` from all visible Google calendars. - Canonical local state files established for future continuation: `state/calendar.json`, `state/team.json`, `state/visual-office.json`. - Team source currently contains Thibaud and GONA; Visual Office currently contains functional spaces rather than physical rooms. - Task system has reached a V2 state with live/archive split, category tagging, priority tagging, and score-based ordering. - Calendar UI now groups synced events by day and source calendar and is one of the strongest screens in the cur",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.4182715266942978,
+      "totalScore": 0.77070472240448,
       "maxScore": 0.4182715266942978,
       "firstRecalledAt": "2026-05-02T01:01:02.864Z",
-      "lastRecalledAt": "2026-05-02T01:01:02.864Z",
+      "lastRecalledAt": "2026-05-02T19:14:08.123Z",
       "queryHashes": [
-        "4e2b1e3147d1"
+        "4e2b1e3147d1",
+        "fbc51c86f2ea"
       ],
       "recallDays": [
         "2026-05-02"
@@ -2338,6 +2353,1759 @@
         "state/visual-office.json",
         "score-based",
         "real"
+      ]
+    },
+    "memory:memory/2026-04-26.md:1:15": {
+      "key": "memory:memory/2026-04-26.md:1:15",
+      "path": "memory/2026-04-26.md",
+      "startLine": 1,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "# 2026-04-26 - Worked extensively on Langflow research and implementation for a synthetic executive-control / \"prefrontal\" architecture using LLMs. - Researched relevant papers and patterns: Tree of Thoughts, ReAct, Reflexion, MemGPT, multi-agent debate / multi-persona collaboration, agent architecture surveys. - Designed the architecture `SPC v1` (Synthetic Prefrontal Column) with modules for situation modeling, working memory, parallel policy generation, inhibitory control, conflict monitoring, executive selection, structured output, and later reflection/meta-critique. - Built and installed these flows into the local Langflow instance via API: - `Idea to Action Plan` — flow id `e1482d4c",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.3620654463768005,
+      "maxScore": 0.3620654463768005,
+      "firstRecalledAt": "2026-05-02T19:14:08.123Z",
+      "lastRecalledAt": "2026-05-02T19:14:08.123Z",
+      "queryHashes": [
+        "fbc51c86f2ea"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "gpt",
+        "executive-control",
+        "multi-agent",
+        "multi-persona",
+        "reflection/meta-critique",
+        "worked",
+        "extensively",
+        "langflow"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: Au fait à propos de ça ?",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "fait",
+        "propos"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: Oui — bonne idée. Je peux te poster un brief IA quotidien ici. Il me manque juste 2 réglages : - quelle heure ? - plutôt ultra-court (3-5 points) ou mini-analyse (avec ce qui compte vraiment) ? Si tu veux, je te mets un bon défaut direct : 9h, 5 points, focus outils/si",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "ultra-court",
+        "3-5",
+        "mini-analyse",
+        "outils/si",
+        "oui",
+        "bonne",
+        "idée",
+        "peux"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "User: À midi tous les jours Plutôt court. Nouveauté et hype",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "midi",
+        "tous",
+        "jours",
+        "plutôt",
+        "court",
+        "nouveauté",
+        "hype"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "Assistant: C’est calé ✅ Tous les jours à midi, je poste ici un brief IA court, orienté nouveauté et hype.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "c’est",
+        "calé",
+        "tous",
+        "jours",
+        "midi",
+        "poste",
+        "ici",
+        "brief"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "User: En regardant les autres salon, et les dernieres messages et les derniers échanges et projet qu'on a eu. , fais moi une road map pour la semaine ici. On va faire un cron pour que tu me fasses cela tous les lundis matin à 8h.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "regardant",
+        "autres",
+        "salon",
+        "dernieres",
+        "messages",
+        "derniers",
+        "échanges",
+        "projet"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:6:6": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:6:6",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 6,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "Assistant: J’ai regardé les salons actifs + nos derniers chantiers. Mon avis franc : il faut une semaine de **convergence**, pas d’ouverture de 12 fronts. **Focus de la semaine** Faire avancer ce qui peut devenir concret vite : - **Mission Control ARPAGONA** = actif principal à p",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "j’ai",
+        "regardé",
+        "salons",
+        "actifs",
+        "nos",
+        "derniers",
+        "chantiers",
+        "mon"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:7:7": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:7:7",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 7,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "Assistant: tourne vraiment, soit on le met en attente proprement. - fournir / brancher `DISCORD_TOKEN`, `DISCORD_CLIENT_ID`, `LLM_BASE_URL`, `LLM_MODEL` si ce n’est pas encore fait - faire un vrai test live dans le serveur - si creds indisponibles : ne pas y passer la semaine **3",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "discord-token",
+        "discord-client-id",
+        "llm-base-url",
+        "llm-model",
+        "tourne",
+        "vraiment",
+        "soit",
+        "met"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:8:8": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:8:8",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 8,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "Assistant: Mission Control - **Jeudi** : LOCO live test ou stop propre si blocage creds - **Vendredi** : synthèse business Arpagona + décisions de semaine suivante **Règles de priorité** - pas plus de **3 chantiers ouverts** - si un sujet dépend d’un secret/accès externe, on le t",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "secret/accès",
+        "mission",
+        "control",
+        "jeudi",
+        "loco",
+        "live",
+        "test",
+        "stop"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:9:9": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:9:9",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 9,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "User: C'est très bien mais tu ne me parles pas par exemples , des recherches sur les subventions qu'on a eu dans le salon business dev.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "c'est",
+        "très",
+        "bien",
+        "mais",
+        "parles",
+        "pas",
+        "par",
+        "exemples"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:10:10": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:10:10",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 10,
+      "endLine": 10,
+      "source": "memory",
+      "snippet": "Assistant: Oui, tu as raison — j’ai été trop centré produit/exécution et pas assez **business concret**. Je réintègre ça dans la roadmap. **Ajout important côté business dev : subventions Arpagona** Cette semaine, il y a un vrai mini-chantier à part entière : - reprendre la short",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "produit/exécution",
+        "mini-chantier",
+        "oui",
+        "raison",
+        "j’ai",
+        "été",
+        "trop",
+        "centré"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:11:11": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:11:11",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 11,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "Assistant: / financement Arpagona** : transformer la recherche en grille de décision - **LOCO bot** : seulement si les creds arrivent vite **Livrable business attendu cette semaine** Un tableau simple pour Arpagona : - aide - niveau de pertinence - conditions bloquantes - pièces",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "financement",
+        "arpagona",
+        "transformer",
+        "recherche",
+        "grille",
+        "décision",
+        "loco",
+        "bot"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:12:12": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:12:12",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 12,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "User: tu peux creer un bot discord pour LOCO ?",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "peux",
+        "creer",
+        "bot",
+        "discord",
+        "loco"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:13:13": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:13:13",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 13,
+      "endLine": 13,
+      "source": "memory",
+      "snippet": "Assistant: Oui 👽 Je peux te le créer. Le plus simple: je te prépare un squelette propre en Node.js + discord.js pour LOCO. Il me manque juste 2 trucs pour partir dans la bonne direction: - il doit faire quoi au départ ? (commandes, IA, modération, tickets, annonces, logs, etc.)",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "node.js",
+        "discord.js",
+        "oui",
+        "peux",
+        "créer",
+        "plus",
+        "simple",
+        "prépare"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:14:14": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:14:14",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 14,
+      "endLine": 14,
+      "source": "memory",
+      "snippet": "User: un bot qui puisse interagir avec nous sur tous les salon. et branché a loco pour qu'il tourne sur glm",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "bot",
+        "puisse",
+        "interagir",
+        "nous",
+        "tous",
+        "salon",
+        "branché",
+        "loco"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:15:15": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:15:15",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 15,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "Assistant: Oui — je t’ai préparé un starter propre 👽 Projet créé dans `loco-discord-bot/`. Il fait déjà ça : - dispo sur tous les salons où tu l’ajoutes - répond quand on le mentionne - répond si on répond à un de ses messages - commande `/ask` - branché sur un endpoint OpenAI-c",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "openai",
+        "loco-discord-bot",
+        "openai-c",
+        "oui",
+        "t’ai",
+        "préparé",
+        "starter",
+        "propre"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:16:16": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:16:16",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 16,
+      "endLine": 16,
+      "source": "memory",
+      "snippet": "Assistant: le mode “répond sans mention” dans certains salons 2. une vraie personnalité LOCO 3. le branchement exact sur ton endpoint GLM si tu me donnes l’URL / format",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "mode",
+        "répond",
+        "mention",
+        "certains",
+        "salons",
+        "vraie",
+        "personnalité",
+        "loco"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:17:17": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:17:17",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 17,
+      "endLine": 17,
+      "source": "memory",
+      "snippet": "User: on va fonctioner avec <@&1496584703543738512> ou @loco maintenant",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "fonctioner",
+        "loco",
+        "maintenant"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:18:18": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:18:18",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 18,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "Assistant: Ça marche. On part sur `<@&1496584703543738512>` / `@loco` comme point d’appel. Si tu veux, prochaine étape je fais en sorte que le bot écoute explicitement cette mention/ce rôle en plus des mentions directes classiques.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "mention/ce",
+        "marche",
+        "loco",
+        "comme",
+        "point",
+        "d’appel",
+        "veux",
+        "prochaine"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:19:19": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:19:19",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 19,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "User: ainsi, vous aller egalement pouvoir vous parler l'un a l'autre",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "ainsi",
+        "vous",
+        "aller",
+        "egalement",
+        "pouvoir",
+        "parler",
+        "l'un",
+        "l'autre"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:20:20": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:20:20",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 20,
+      "endLine": 20,
+      "source": "memory",
+      "snippet": "Assistant: Oui, exactement. Comme ça, LOCO pourra être interpellé dans les salons, et moi je pourrai aussi le traiter comme un interlocuteur si on branche bien les règles côté bot. Le point important, c’est d’éviter le chaos 😄 Donc je te conseille : - `@loco` = pour parler au bo",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "oui",
+        "exactement",
+        "comme",
+        "loco",
+        "pourra",
+        "être",
+        "interpellé",
+        "salons"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:21:21": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:21:21",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 21,
+      "endLine": 21,
+      "source": "memory",
+      "snippet": "User: bien sur",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "bien"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:22:22": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:22:22",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 22,
+      "endLine": 22,
+      "source": "memory",
+      "snippet": "User: @loco salut",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "loco",
+        "salut"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:23:23": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:23:23",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 23,
+      "endLine": 23,
+      "source": "memory",
+      "snippet": "Assistant: salut 👽 LOCO pas encore branché en live ici, mais je capte l’appel. Si tu veux, je peux finir le wiring pour que `@loco` réponde vraiment tout seul dans le serveur.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "salut",
+        "loco",
+        "pas",
+        "encore",
+        "branché",
+        "live",
+        "ici",
+        "mais"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:24:24": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:24:24",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 24,
+      "endLine": 24,
+      "source": "memory",
+      "snippet": "User: Tu as possibilité de regarder des vidéos YouTube et d'en faire un résumé ?",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "possibilité",
+        "regarder",
+        "vidéos",
+        "youtube",
+        "d'en",
+        "faire",
+        "résumé"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:25:25": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:25:25",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 25,
+      "endLine": 25,
+      "source": "memory",
+      "snippet": "Assistant: Oui 👍 Envoie le lien YouTube et je peux te faire un résumé clair. Selon la vidéo, je peux aussi : - extraire les idées clés - faire une version courte ou détaillée - lister les moments importants - relever les points discutables Si la transcription est dispo, ce sera",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "oui",
+        "envoie",
+        "lien",
+        "youtube",
+        "peux",
+        "faire",
+        "résumé",
+        "clair"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:26:26": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:26:26",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 26,
+      "endLine": 26,
+      "source": "memory",
+      "snippet": "User: https://youtu.be/oOCN30ulVyo?is=prIvDfGZcHSWKO0Z",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "youtu.be/oocn30ulvyo",
+        "https",
+        "youtu.be",
+        "oocn30ulvyo",
+        "privdfgzchswko0z"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:27:27": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:27:27",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 27,
+      "endLine": 27,
+      "source": "memory",
+      "snippet": "Assistant: Je vais voir si je peux récupérer au moins les métadonnées et la transcription auto pour te faire un vrai résumé, pas un truc inventé.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "vais",
+        "voir",
+        "peux",
+        "récupérer",
+        "moins",
+        "métadonnées",
+        "transcription",
+        "auto"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:28:28": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:28:28",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 28,
+      "endLine": 28,
+      "source": "memory",
+      "snippet": "Assistant: Bonne nouvelle: la page expose bien des pistes de sous-titres. Je tente de les extraire proprement pour te faire un résumé fiable.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "sous-titres",
+        "bonne",
+        "nouvelle",
+        "page",
+        "expose",
+        "bien",
+        "pistes",
+        "sous"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:29:29": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:29:29",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 29,
+      "endLine": 29,
+      "source": "memory",
+      "snippet": "Assistant: J’ai récupéré la description + les chapitres de la vidéo. Je regarde aussi le doc de prompts lié dedans pour enrichir le résumé.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "j’ai",
+        "récupéré",
+        "description",
+        "chapitres",
+        "vidéo",
+        "regarde",
+        "aussi",
+        "doc"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:30:30": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:30:30",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 30,
+      "endLine": 30,
+      "source": "memory",
+      "snippet": "Assistant: Oui — et pour celle-ci j’ai pu récupérer les chapitres + le doc de prompts lié dans la description, donc je peux déjà te faire un résumé utile. Résumé rapide : - La vidéo montre surtout comment Tina Huang a configuré OpenClaw comme un agent perso 24/7, avec une logique",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "celle-ci",
+        "24/7",
+        "oui",
+        "celle",
+        "j’ai",
+        "récupérer",
+        "chapitres",
+        "doc"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:31:31": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:31:31",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 31,
+      "endLine": 31,
+      "source": "memory",
+      "snippet": "Assistant: Mini 32GB+ ou VPS selon le besoin. - 02:23 Download & Onboarding Wizard - Elle recommande de suivre le wizard en mode QuickStart dans la plupart des cas. - Le doc associé donne une logique de choix très opinionnée : provider/modèle selon région, budget, machine dispo e",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "provider/modèle",
+        "mini",
+        "32gb",
+        "vps",
+        "selon",
+        "besoin",
+        "download",
+        "onboarding"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:32:32": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:32:32",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 32,
+      "endLine": 32,
+      "source": "memory",
+      "snippet": "Assistant: Discord”, mais rendre l’agent accessible au quotidien dans un flux naturel. - 11:53 Build Projects - Elle pousse à choisir un premier projet concret qui améliore vraiment la vie au lieu de partir trop large. - On voit une logique “agent utile d’abord”, pas démo gadget.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "discord",
+        "mais",
+        "rendre",
+        "l’agent",
+        "accessible",
+        "quotidien",
+        "flux",
+        "naturel"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:33:33": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:33:33",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 33,
+      "endLine": 33,
+      "source": "memory",
+      "snippet": "Assistant: limiter ce qui est exposé trop tôt. - 20:46 Memory Fixes - Grosse idée : sans bonne mémoire, l’agent ne donne pas vraiment une impression de continuité. - Le doc insiste aussi sur les hooks de session/mémoire et le logging de commandes pour garder de la trace et débugg",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "session/mémoire",
+        "limiter",
+        "exposé",
+        "trop",
+        "tôt",
+        "fixes",
+        "grosse",
+        "idée"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:34:34": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:34:34",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 34,
+      "endLine": 34,
+      "source": "memory",
+      "snippet": "Assistant: émerger des projets utiles Limite honnête : je n’ai pas pu récupérer la transcription complète directement depuis YouTube, donc ce résumé est basé sur les chapitres officiels + le doc de prompts public lié dans la description. Si tu veux, je peux faire aussi l’un de ce",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "émerger",
+        "projets",
+        "utiles",
+        "limite",
+        "honnête",
+        "n’ai",
+        "pas",
+        "récupérer"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:35:35": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:35:35",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 35,
+      "endLine": 35,
+      "source": "memory",
+      "snippet": "User: Tu peux aller fouiner sur sa chaîne pour voir un peu ce qui est intéressant pour nous ?",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "peux",
+        "aller",
+        "fouiner",
+        "chaîne",
+        "voir",
+        "peu",
+        "intéressant",
+        "nous"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:36:36": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:36:36",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 36,
+      "endLine": 36,
+      "source": "memory",
+      "snippet": "User: Tu peux écrire dans ton soûl.md ? J'aimerai que tu ajoutes à ta personnalité que tu prends énormément de notes, tel un excellent employé. Tout cela de sorte à booster ta mémoire.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "soûl.md",
+        "peux",
+        "écrire",
+        "ton",
+        "j'aimerai",
+        "ajoutes",
+        "personnalité",
+        "prends"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:37:37": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:37:37",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 37,
+      "endLine": 37,
+      "source": "memory",
+      "snippet": "Assistant: Oui — c’est fait 👽 J’ai ajouté dans `SOUL.md` que je prends beaucoup de notes, de manière proactive et claire, comme un excellent employé, pour mieux capitaliser la mémoire. Et vu que c’est mon âme, je te le dis explicitement comme prévu. Si tu veux, je peux aussi ren",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "soul.md",
+        "oui",
+        "c’est",
+        "fait",
+        "j’ai",
+        "ajouté",
+        "prends",
+        "beaucoup"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:38:38": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:38:38",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 38,
+      "endLine": 38,
+      "source": "memory",
+      "snippet": "Assistant: C’est ajouté aussi dans `AGENTS.md`. J’ai renforcé la règle de façon plus opérationnelle : noter immédiatement les décisions, le contexte utile et les loose ends, avec une préférence pour des petites notes fréquentes plutôt qu’attendre un résumé parfait. Je pense que c",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "agents.md",
+        "c’est",
+        "ajouté",
+        "aussi",
+        "j’ai",
+        "renforcé",
+        "règle",
+        "façon"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:39:39": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:39:39",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 39,
+      "endLine": 39,
+      "source": "memory",
+      "snippet": "Assistant: C’est fait. J’ai câblé le starter pour que LOCO réponde aussi à : - la mention du rôle `<@&1496584703543738512>` - `@loco` - `loco:` / `loco,` / `loco ...` - les réponses à un message du bot J’ai mis ça dans : - `loco-discord-bot/src/index.js` - `loco-discord-bot/.env.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "loco-discord-bot/src/index.js",
+        "loco-discord-bot",
+        "c’est",
+        "fait",
+        "j’ai",
+        "câblé",
+        "starter",
+        "loco"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:40:40": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:40:40",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 40,
+      "endLine": 40,
+      "source": "memory",
+      "snippet": "User: bah oui, termine tout, je veux qu'il fonction c'est tout",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "bah",
+        "oui",
+        "termine",
+        "tout",
+        "veux",
+        "qu'il",
+        "fonction",
+        "c'est"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:41:41": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:41:41",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 41,
+      "endLine": 41,
+      "source": "memory",
+      "snippet": "Assistant: J’ai terminé tout ce que je pouvais sans tes secrets. C’est prêt côté code : - bot Discord complété - déclenchement via `@loco` / rôle LOCO / mention directe / réponse au bot - anti-pings relous - réponses longues découpées proprement - `/ask` + `/loco-ping` - dépendan",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "anti-pings",
+        "loco-ping",
+        "j’ai",
+        "terminé",
+        "tout",
+        "pouvais",
+        "tes",
+        "secrets"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:42:42": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:42:42",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 42,
+      "endLine": 42,
+      "source": "memory",
+      "snippet": "Assistant: DISCORD_TRIGGER_ROLE_ID=1496584703543738512 DISCORD_TRIGGER_NAME=loco LLM_BASE_URL=... LLM_API_KEY=*** LLM_MODEL=glm-4.5 BOT_NAME=LOCO ``` Ensuite le lancement c’est juste : `cd loco-discord-bot && npm run dev` Donc oui : le chantier est fini, mais il manque la clé du",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "discord-trigger-role-id",
+        "discord-trigger-name",
+        "llm-base-url",
+        "llm-api-key",
+        "llm-model",
+        "glm-4.5",
+        "bot-name",
+        "loco-discord-bot"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:43:43": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:43:43",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 43,
+      "endLine": 43,
+      "source": "memory",
+      "snippet": "User: OK. Je dois faire quoi concrètement ?",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "dois",
+        "faire",
+        "quoi",
+        "concrètement"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:44:44": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:44:44",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 44,
+      "endLine": 44,
+      "source": "memory",
+      "snippet": "Assistant: Concrètement, fais juste ça : 1. crée le fichier `loco-discord-bot/.env` 2. colle dedans : ```env DISCORD_TOKEN=*** DISCORD_CLIENT_ID=... DISCORD_GUILD_ID=... DISCORD_TRIGGER_ROLE_ID=1496584703543738512 DISCORD_TRIGGER_NAME=loco LLM_BASE_URL=... LLM_API_KEY=*** LLM_MOD",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "loco-discord-bot",
+        "discord-token",
+        "discord-client-id",
+        "discord-guild-id",
+        "discord-trigger-role-id",
+        "discord-trigger-name",
+        "llm-base-url",
+        "llm-api-key"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:45:45": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:45:45",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 45,
+      "endLine": 45,
+      "source": "memory",
+      "snippet": "Assistant: te prépare le `.env` exact sans que tu réfléchisses.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "prépare",
+        "env",
+        "exact",
+        "réfléchisses"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:46:46": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:46:46",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 46,
+      "endLine": 46,
+      "source": "memory",
+      "snippet": "Assistant: Je regarde ça. Je vais te sortir les vidéos / angles qui ont le plus de valeur pour nous, pas juste une liste brute.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "regarde",
+        "vais",
+        "sortir",
+        "vidéos",
+        "angles",
+        "ont",
+        "plus",
+        "valeur"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:47:47": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:47:47",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 47,
+      "endLine": 47,
+      "source": "memory",
+      "snippet": "Assistant: Oui — j’ai fouiné un peu, et il y a clairement quelques trucs qui valent le détour pour nous. Les plus intéressants côté OpenClaw / agents / infra : - My FULL OpenClaw Setup (steal my prompts!) - le plus directement utile pour nous - intéressant pour sa logique de setu",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "oui",
+        "j’ai",
+        "fouiné",
+        "peu",
+        "clairement",
+        "quelques",
+        "trucs",
+        "valent"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:48:48": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:48:48",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 48,
+      "endLine": 48,
+      "source": "memory",
+      "snippet": "Assistant: Source AI In 17 Minutes - plus synthétique, potentiellement bien pour prendre de la hauteur vite - My Favourite AI Workflow Nobody Talks About - probablement plus “méthode de travail” que produit, mais ça peut contenir de bonnes idées de workflow à adapter Aussi potent",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "source",
+        "minutes",
+        "plus",
+        "synthétique",
+        "potentiellement",
+        "bien",
+        "prendre",
+        "hauteur"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:49:49": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:49:49",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 49,
+      "endLine": 49,
+      "source": "memory",
+      "snippet": "Assistant: digeste - bon terrain pour récupérer des angles, des frameworks, des prompts et du positioning - moins intéressant si on cherche de la profondeur hardcore système; plus intéressant si on veut des idées exploitables vite Si tu veux, je peux faire l’étape d’après : - soi",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "digeste",
+        "bon",
+        "terrain",
+        "récupérer",
+        "angles",
+        "frameworks",
+        "prompts",
+        "positioning"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:50:50": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:50:50",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 50,
+      "endLine": 50,
+      "source": "memory",
+      "snippet": "User: OK fais des fiches des vidéos",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "fais",
+        "fiches",
+        "vidéos"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:51:51": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:51:51",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 51,
+      "endLine": 51,
+      "source": "memory",
+      "snippet": "Assistant: Je te fais ça proprement : fiches courtes, orientées “intérêt réel pour nous” et réutilisation possible, pas du remplissage.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "fais",
+        "proprement",
+        "fiches",
+        "courtes",
+        "orientées",
+        "intérêt",
+        "réel",
+        "nous"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:52:52": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:52:52",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 52,
+      "endLine": 52,
+      "source": "memory",
+      "snippet": "Assistant: Oui — je t’ai préparé des fiches orientées “est-ce que ça vaut notre temps ?” 1) My FULL OpenClaw Setup (steal my prompts!) - Promesse - montrer son setup OpenClaw complet + partager ses prompts - Intérêt réel - c’est la vidéo la plus directement utile pour nous - pas",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "est-ce",
+        "oui",
+        "t’ai",
+        "préparé",
+        "fiches",
+        "orientées",
+        "vaut",
+        "notre"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:53:53": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:53:53",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 53,
+      "endLine": 53,
+      "source": "memory",
+      "snippet": "Assistant: expliquer les fondamentaux des agents IA locaux - Intérêt réel - utile pour comparer son récit “local agents” avec OpenClaw - probablement bon pour voir quels arguments parlent aux gens: autonomie, confidentialité, contrôle, workflows concrets - Ce qu’on peut réutilise",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "expliquer",
+        "fondamentaux",
+        "agents",
+        "locaux",
+        "intérêt",
+        "réel",
+        "utile",
+        "comparer"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:54:54": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:54:54",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 54,
+      "endLine": 54,
+      "source": "memory",
+      "snippet": "Assistant: réutiliser - la pédagogie sur tools/resources/prompt templates - le framing “MCP = couche d’interface standard pour capacités agentiques” - Mon avis - une des vidéos les plus utiles si on pense écosystème, partenaires, ou architecture d’intégration 4) Every Way To Run",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "tools/resources/prompt",
+        "réutiliser",
+        "pédagogie",
+        "tools",
+        "resources",
+        "prompt",
+        "templates",
+        "framing"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:55:55": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:55:55",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 55,
+      "endLine": 55,
+      "source": "memory",
+      "snippet": "Assistant: très utile pour le packaging du “comment je le fais tourner ?” 5) Open Source AI In 17 Minutes - Promesse - expliquer l’essentiel de l’open source AI stack + démos no-code et code - Intérêt réel - bonne synthèse large - intéressant si on veut voir comment elle fait le",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "no-code",
+        "très",
+        "utile",
+        "packaging",
+        "comment",
+        "fais",
+        "tourner",
+        "open"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:56:56": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:56:56",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 56,
+      "endLine": 56,
+      "source": "memory",
+      "snippet": "Assistant: nous côté produit - l’idée centrale semble être : partir d’un workflow précis, cartographier les étapes, puis construire une app/agent ciblé plutôt qu’un “gros assistant généraliste” - Ce qu’on peut réutiliser - la logique workflow-first - la notion d’app hyperspécifiq",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "app/agent",
+        "workflow-first",
+        "nous",
+        "côté",
+        "produit",
+        "l’idée",
+        "centrale",
+        "semble"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:57:57": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:57:57",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 57,
+      "endLine": 57,
+      "source": "memory",
+      "snippet": "Assistant: plus riches sont probablement : OpenClaw Setup, MCP, et AI Workflow - si on cherche surtout du contenu/pédagogie/positioning, sa chaîne est vraiment intéressante - si on cherche de la profondeur système hardcore, ce n’est pas la meilleure source Si tu veux, je peux te",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-03T01:00:00.262Z",
+      "lastRecalledAt": "2026-05-03T01:00:00.262Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "contenu/pédagogie/positioning",
+        "plus",
+        "riches",
+        "sont",
+        "probablement",
+        "openclaw",
+        "setup",
+        "mcp"
       ]
     }
   }

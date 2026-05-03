@@ -48,6 +48,8 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - When someone says "remember this" → update `memory/YYYY-MM-DD.md` or relevant file
 - When you learn a lesson → update AGENTS.md, TOOLS.md, or the relevant skill
 - When you make a mistake → document it so future-you doesn't repeat it
+- When a decision is made, context becomes important, or a loose end appears → note it immediately in the most relevant file
+- Prefer small, frequent notes over waiting for a perfect summary later
 - **Text > Brain** 📝
 
 ## Red Lines
