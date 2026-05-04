@@ -93,16 +93,19 @@ export function ProjectsSection({ projects }: { projects: FileSummary[] }) {
       <CardContent>
         <div className="grid gap-4 lg:grid-cols-2">
           {projects.map((item) => (
-            <article key={item.path} className="rounded-2xl border p-4">
-              <div className="flex items-start justify-between gap-3">
-                <div>
-                  <h3 className="font-medium">{item.title}</h3>
-                  <p className="mt-1 font-mono text-xs text-muted-foreground">{item.path}</p>
+            <Link key={item.path} href={`/projects/view/${item.path.split("/").map(encodeURIComponent).join("/")}`}>
+              <article className="rounded-2xl border p-4 transition-colors hover:bg-muted/30">
+                <div className="flex items-start justify-between gap-3">
+                  <div>
+                    <h3 className="font-medium">{item.title}</h3>
+                    <p className="mt-1 font-mono text-xs text-muted-foreground">{item.path}</p>
+                  </div>
+                  <Badge>{formatDate(item.updatedAt)}</Badge>
                 </div>
-                <Badge>{formatDate(item.updatedAt)}</Badge>
-              </div>
-              <p className="mt-3 text-sm text-muted-foreground">{item.excerpt || "Aperçu indisponible."}</p>
-            </article>
+                <p className="mt-3 text-sm text-muted-foreground">{item.excerpt || "Aperçu indisponible."}</p>
+                <p className="mt-3 text-xs font-medium text-muted-foreground">Ouvrir le fichier →</p>
+              </article>
+            </Link>
           ))}
         </div>
       </CardContent>
@@ -119,14 +122,23 @@ export function TasksSection({ tasks }: { tasks: TaskItem[] }) {
       <Card className="rounded-3xl">
         <CardHeader>
           <CardTitle>Live execution</CardTitle>
-          <CardDescription>Signal prioritaire pour l’exécution ARPAGONA en cours.</CardDescription>
+          <CardDescription>Signal prioritaire pour l&apos;exécution ARPAGONA en cours.</CardDescription>
+          <Badge variant="outline" className="ml-auto">
+            {liveTasks.length}
+          </Badge>
         </CardHeader>
         <CardContent>
           <ScrollArea className="h-[620px] pr-4">
             <div className="space-y-3">
-              {liveTasks.map((task) => (
-                <TaskRow key={`${task.path}:${task.line}:${task.text}`} task={task} />
-              ))}
+              {liveTasks.length > 0 ? (
+                liveTasks.map((task) => (
+                  <TaskRow key={`${task.path}:${task.line}:${task.text}`} task={task} />
+                ))
+              ) : (
+                <div className="flex h-full items-center justify-center text-muted-foreground">
+                  Aucun signal live disponible
+                </div>
+              )}
             </div>
           </ScrollArea>
         </CardContent>
@@ -136,13 +148,22 @@ export function TasksSection({ tasks }: { tasks: TaskItem[] }) {
         <CardHeader>
           <CardTitle>Archive backlog</CardTitle>
           <CardDescription>Références anciennes gardées visibles, mais séparées du flux live.</CardDescription>
+          <Badge variant="outline" className="ml-auto">
+            {archiveTasks.length}
+          </Badge>
         </CardHeader>
         <CardContent>
           <ScrollArea className="h-[620px] pr-4">
             <div className="space-y-3">
-              {archiveTasks.map((task) => (
-                <TaskRow key={`${task.path}:${task.line}:${task.text}`} task={task} />
-              ))}
+              {archiveTasks.length > 0 ? (
+                archiveTasks.map((task) => (
+                  <TaskRow key={`${task.path}:${task.line}:${task.text}`} task={task} />
+                ))
+              ) : (
+                <div className="flex h-full items-center justify-center text-muted-foreground">
+                  Aucun signal archivé disponible
+                </div>
+              )}
             </div>
           </ScrollArea>
         </CardContent>
