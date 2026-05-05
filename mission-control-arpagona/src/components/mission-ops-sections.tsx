@@ -126,36 +126,211 @@ export function CalendarSection({ events, nowIso }: { events: CalendarEvent[]; n
   );
 }
 
-export function TeamSection({ members }: { members: TeamMember[] }) {
+function categoryLabel(category?: TaskItem["category"]) {
+  switch (category) {
+    case "sales":
+      return "Sales";
+    case "offer":
+      return "Offers";
+    case "delivery":
+      return "Build";
+    case "ops":
+      return "Ops";
+    case "memory":
+      return "Memory";
+    default:
+      return "General";
+  }
+}
+
+function priorityBadgeVariant(priority: TaskItem["priority"]) {
+  if (priority === "high") return "destructive" as const;
+  if (priority === "medium") return "secondary" as const;
+  return "outline" as const;
+}
+
+export function TeamSection({ members, spaces, tasks }: { members: TeamMember[]; spaces: VisualOfficeSpace[]; tasks: TaskItem[] }) {
+  const activeMembers = members.filter((member) => member.status === "active");
+  const avgProgress = Math.round(activeMembers.reduce((sum, member) => sum + (member.progress ?? 0), 0) / Math.max(activeMembers.length, 1));
+  const openTasks = tasks.filter((task) => !task.done && task.scope === "live");
+  const roomMap = new Map(spaces.map((space) => [space.id, space]));
+
+  const membersWithContext = members.map((member) => {
+    const room = member.currentRoom ? roomMap.get(member.currentRoom) : undefined;
+    const relatedTasks = openTasks
+      .filter((task) => {
+        const memberTask = member.currentTask?.toLowerCase() ?? "";
+        const matchesTaskText = memberTask ? task.text.toLowerCase().includes(memberTask.slice(0, 24)) : false;
+        const matchesRoomCategory = room?.taskCategory ? task.category === room.taskCategory : false;
+        return matchesTaskText || matchesRoomCategory;
+      })
+      .slice(0, 3);
+
+    return { member, room, relatedTasks };
+  });
+
+  const roomStaffing = spaces
+    .map((space) => ({
+      space,
+      occupants: members.filter((member) => member.currentRoom === space.id),
+      liveTasks: openTasks.filter((task) => (space.taskCategory ? task.category === space.taskCategory : true)).slice(0, 4),
+    }))
+    .sort((a, b) => b.occupants.length - a.occupants.length);
+
   return (
-    <Card className="rounded-3xl">
-      <CardHeader>
-        <CardTitle>Team</CardTitle>
-        <CardDescription>Source canonique locale: `state/team.json`.</CardDescription>
-      </CardHeader>
-      <CardContent>
-        {members.length === 0 ? (
-          <div className="rounded-2xl border border-dashed p-6 text-sm text-muted-foreground">
-            Aucun membre réel renseigné pour le moment.
-          </div>
-        ) : (
-          <div className="grid gap-4 lg:grid-cols-2">
-            {members.map((member) => (
-              <article key={member.id} className="rounded-2xl border p-4">
-                <div className="flex items-start justify-between gap-3">
-                  <div>
-                    <p className="font-medium">{member.emoji ? `${member.emoji} ` : ""}{member.name}</p>
-                    <p className="mt-1 text-xs text-muted-foreground">{member.role ?? "role undefined"}</p>
+    <div className="grid gap-6">
+      <Card className="rounded-3xl">
+        <CardHeader>
+          <CardTitle>Team command layer</CardTitle>
+          <CardDescription>Source canonique locale: `state/team.json`, reliée aux rooms et au flux live.</CardDescription>
+        </CardHeader>
+        <CardContent>
+          {members.length === 0 ? (
+            <div className="rounded-2xl border border-dashed p-6 text-sm text-muted-foreground">
+              Aucun membre réel renseigné pour le moment.
+            </div>
+          ) : (
+            <div className="grid gap-4 lg:grid-cols-4">
+              <div className="rounded-2xl border p-4">
+                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-muted-foreground">Active members</p>
+                <p className="mt-2 text-3xl font-semibold">{activeMembers.length}</p>
+                <p className="mt-2 text-sm text-muted-foreground">agents actuellement en ligne dans le cockpit</p>
+              </div>
+              <div className="rounded-2xl border p-4">
+                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-muted-foreground">Average progress</p>
+                <p className="mt-2 text-3xl font-semibold">{avgProgress}%</p>
+                <p className="mt-2 text-sm text-muted-foreground">moyenne de progression des agents actifs</p>
+              </div>
+              <div className="rounded-2xl border p-4">
+                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-muted-foreground">Occupied rooms</p>
+                <p className="mt-2 text-3xl font-semibold">{roomStaffing.filter((room) => room.occupants.length > 0).length}</p>
+                <p className="mt-2 text-sm text-muted-foreground">espaces réellement habités sur {spaces.length}</p>
+              </div>
+              <div className="rounded-2xl border p-4">
+                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-muted-foreground">Live task pressure</p>
+                <p className="mt-2 text-3xl font-semibold">{openTasks.length}</p>
+                <p className="mt-2 text-sm text-muted-foreground">tâches ouvertes connectées au pilotage</p>
+              </div>
+            </div>
+          )}
+        </CardContent>
+      </Card>
+
+      <div className="grid gap-6 xl:grid-cols-[1.1fr_0.9fr]">
+        <Card className="rounded-3xl">
+          <CardHeader>
+            <CardTitle>Agent boards</CardTitle>
+            <CardDescription>Chaque agent avec sa room, son focus actuel, sa progression et les tâches qu’il tire réellement.</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <div className="grid gap-4 lg:grid-cols-2">
+              {membersWithContext.map(({ member, room, relatedTasks }) => (
+                <article key={member.id} className="rounded-2xl border p-4">
+                  <div className="flex items-start justify-between gap-3">
+                    <div>
+                      <p className="font-medium">{member.emoji ? `${member.emoji} ` : ""}{member.name}</p>
+                      <p className="mt-1 text-xs text-muted-foreground">{member.role ?? "role undefined"}</p>
+                    </div>
+                    <Badge variant="outline">{member.status ?? "unknown"}</Badge>
                   </div>
-                  <Badge variant="outline">{member.status ?? "unknown"}</Badge>
-                </div>
-                {member.focus ? <p className="mt-3 text-sm text-muted-foreground">{member.focus}</p> : null}
-              </article>
-            ))}
-          </div>
-        )}
-      </CardContent>
-    </Card>
+
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    <Badge variant="secondary">{room?.name ?? "No room"}</Badge>
+                    {room?.taskCategory ? <Badge variant="outline">{categoryLabel(room.taskCategory)}</Badge> : null}
+                  </div>
+
+                  {member.focus ? <p className="mt-3 text-sm text-muted-foreground">{member.focus}</p> : null}
+                  {member.currentTask ? <p className="mt-2 text-sm text-white/90">{member.currentTask}</p> : null}
+
+                  <div className="mt-4 flex items-center gap-3 text-xs text-muted-foreground">
+                    <span>Progression</span>
+                    <div className="h-2 flex-1 overflow-hidden rounded-full bg-muted">
+                      <div className="h-full rounded-full bg-foreground" style={{ width: `${member.progress ?? 0}%` }} />
+                    </div>
+                    <span>{member.progress ?? 0}%</span>
+                  </div>
+
+                  <div className="mt-4 space-y-2">
+                    <p className="text-xs font-semibold uppercase tracking-[0.18em] text-muted-foreground">Visible execution</p>
+                    {relatedTasks.length > 0 ? (
+                      relatedTasks.map((task) => (
+                        <div key={`${member.id}:${task.path}:${task.line}`} className="rounded-xl border px-3 py-2 text-sm">
+                          <div className="flex items-center justify-between gap-3">
+                            <span>{task.text}</span>
+                            <Badge variant={priorityBadgeVariant(task.priority)}>{task.priority}</Badge>
+                          </div>
+                          <p className="mt-1 text-xs text-muted-foreground">{task.path}:{task.line}</p>
+                        </div>
+                      ))
+                    ) : (
+                      <div className="rounded-xl border border-dashed px-3 py-2 text-xs text-muted-foreground">Pas encore de tâche live directement reliée.</div>
+                    )}
+                  </div>
+                </article>
+              ))}
+            </div>
+          </CardContent>
+        </Card>
+
+        <Card className="rounded-3xl">
+          <CardHeader>
+            <CardTitle>Room staffing matrix</CardTitle>
+            <CardDescription>Lecture opérable des rooms: qui y travaille, quelle pression y remonte, et où ça coince.</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <div className="space-y-4">
+              {roomStaffing.map(({ space, occupants, liveTasks }) => (
+                <article key={space.id} className="rounded-2xl border p-4">
+                  <div className="flex items-start justify-between gap-3">
+                    <div>
+                      <p className="font-medium">{space.name}</p>
+                      <p className="mt-1 text-xs text-muted-foreground">{space.purpose}</p>
+                    </div>
+                    <Badge variant="outline">{occupants.length} agent{occupants.length > 1 ? "s" : ""}</Badge>
+                  </div>
+
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    <Badge variant="secondary">{space.zone?.replace(/-/g, " ")}</Badge>
+                    <Badge variant="outline">{space.roomType ?? "room"}</Badge>
+                    {space.taskCategory ? <Badge variant="outline">{categoryLabel(space.taskCategory)}</Badge> : null}
+                  </div>
+
+                  <div className="mt-4 space-y-2">
+                    <p className="text-xs font-semibold uppercase tracking-[0.18em] text-muted-foreground">Occupants</p>
+                    {occupants.length > 0 ? (
+                      <div className="flex flex-wrap gap-2">
+                        {occupants.map((member) => (
+                          <Badge key={member.id} variant="outline">{member.emoji ?? "•"} {member.name}</Badge>
+                        ))}
+                      </div>
+                    ) : (
+                      <div className="rounded-xl border border-dashed px-3 py-2 text-xs text-muted-foreground">Room vide: pas d’agent assigné.</div>
+                    )}
+                  </div>
+
+                  <div className="mt-4 space-y-2">
+                    <p className="text-xs font-semibold uppercase tracking-[0.18em] text-muted-foreground">Mapped live tasks</p>
+                    {liveTasks.length > 0 ? (
+                      liveTasks.map((task) => (
+                        <div key={`${space.id}:${task.path}:${task.line}`} className="rounded-xl border px-3 py-2 text-sm">
+                          <div className="flex items-center justify-between gap-3">
+                            <span>{task.text}</span>
+                            <Badge variant={priorityBadgeVariant(task.priority)}>{task.priority}</Badge>
+                          </div>
+                          <p className="mt-1 text-xs text-muted-foreground">{task.category} · {task.path}:{task.line}</p>
+                        </div>
+                      ))
+                    ) : (
+                      <div className="rounded-xl border border-dashed px-3 py-2 text-xs text-muted-foreground">Aucune tâche live mappée à cette room.</div>
+                    )}
+                  </div>
+                </article>
+              ))}
+            </div>
+          </CardContent>
+        </Card>
+      </div>
+    </div>
   );
 }
 

@@ -1,5 +1,5 @@
 import { MissionControlShell } from "@/components/mission-control-shell";
-import { TasksSection } from "@/components/mission-sections";
+import { TasksV3Section } from "@/components/tasks-v3";
 import { getMissionControlData } from "@/lib/mission-control";
 
 export default async function TasksPage() {
@@ -12,7 +12,7 @@ export default async function TasksPage() {
       title="Tasks"
       description="Radar d’exécution : live d’abord, archives séparées pour éviter le bruit."
     >
-      <TasksSection tasks={data.tasks} />
+      <TasksV3Section tasks={data.tasks} team={data.team} visualOffice={data.visualOffice} />
     </MissionControlShell>
   );
 }

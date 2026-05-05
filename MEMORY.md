@@ -43,3 +43,8 @@
 - Real integrations already working include workspace memory/docs/project parsing, task extraction with live/archive prioritization, and Google Calendar sync into `state/calendar.json` from all visible Google calendars.
 - Canonical local state files for continued development are `state/calendar.json`, `state/team.json`, and `state/visual-office.json`.
 - If this project resumes, the most valuable next steps are likely stronger home-page polish, Tasks V3, richer Team semantics, and a more concrete Visual Office model.
+
+## Promoted From Short-Term Memory (2026-05-05)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-04-28.md:3:3 -->
+- - Thibaud wants to revisit later a workflow for exporting ChatGPT / OpenAI conversation data and importing it into OpenClaw as a knowledge base / RAG source. Waiting until he has time to export the OpenAI data. [score=0.837 recalls=0 avg=0.620 source=memory/2026-04-28.md:3-3]

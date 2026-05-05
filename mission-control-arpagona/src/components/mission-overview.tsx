@@ -9,23 +9,31 @@ export function MissionOverview({ data }: { data: MissionControlData }) {
   const nextEvent = data.calendar[0];
   const liveTasks = data.tasks.filter((task) => task.scope === "live" && !task.done).slice(0, 5);
   const currentFocus = getDecisionFocusLabel(data.decisions.current?.selectedOptionId);
+  const activeMembers = data.team.filter((member) => member.status === "active");
+  const occupiedRooms = data.visualOffice.filter((space) => data.team.some((member) => member.currentRoom === space.id));
+  const topRooms = data.visualOffice
+    .map((space) => ({
+      ...space,
+      occupants: data.team.filter((member) => member.currentRoom === space.id),
+      openTasks: data.tasks.filter((task) => !task.done && (space.taskCategory ? task.category === space.taskCategory : task.scope === "live")),
+    }))
+    .sort((a, b) => b.occupants.length - a.occupants.length || b.openTasks.length - a.openTasks.length)
+    .slice(0, 3);
 
   return (
     <div className="grid gap-6">
-      <div className="grid gap-6 xl:grid-cols-[1.1fr_0.9fr]">
+      <div className="grid gap-6 xl:grid-cols-[1.15fr_0.85fr]">
         <Card className="rounded-3xl">
           <CardHeader>
-            <CardTitle>Operational picture</CardTitle>
-            <CardDescription>Lecture condensée des écrans clés du brief initial.</CardDescription>
+            <CardTitle>Operator picture</CardTitle>
+            <CardDescription>Lecture cockpit plus stratégique: cap, exécution, équipe, rooms et pression immédiate.</CardDescription>
           </CardHeader>
-          <CardContent className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+          <CardContent className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
             {[
-              { label: "Tasks", value: `${data.stats.liveOpenTasks} open`, href: "/tasks" },
-              { label: "Calendar", value: `${data.stats.upcomingEvents} upcoming`, href: "/calendar" },
-              { label: "Memory", value: `${data.stats.memoryFiles} files`, href: "/memory" },
-              { label: "Projects", value: `${data.stats.projectFiles} tracked`, href: "/projects" },
-              { label: "Team", value: `${data.stats.teamMembers} members`, href: "/team" },
-              { label: "Visual Office", value: `${data.stats.visualSpaces} spaces`, href: "/visual-office" },
+              { label: "Execution pressure", value: `${data.stats.liveOpenTasks} open`, href: "/tasks" },
+              { label: "Active team", value: `${activeMembers.length} online`, href: "/team" },
+              { label: "Occupied rooms", value: `${occupiedRooms.length}/${data.stats.visualSpaces}`, href: "/visual-office" },
+              { label: "Calendar pressure", value: `${data.stats.upcomingEvents} upcoming`, href: "/calendar" },
             ].map((item) => (
               <Link key={item.label} href={item.href} className="rounded-2xl border p-4 transition-colors hover:bg-muted/40">
                 <p className="text-sm text-muted-foreground">{item.label}</p>
@@ -55,6 +63,58 @@ export function MissionOverview({ data }: { data: MissionControlData }) {
             ) : (
               <div className="rounded-2xl border border-dashed p-4 text-sm text-muted-foreground">Aucun événement imminent détecté.</div>
             )}
+          </CardContent>
+        </Card>
+      </div>
+
+      <div className="grid gap-6 xl:grid-cols-[1.1fr_0.9fr]">
+        <Card className="rounded-3xl">
+          <CardHeader>
+            <CardTitle>Room pulse</CardTitle>
+            <CardDescription>Les salles qui concentrent vraiment l’activité et la pression d’exécution.</CardDescription>
+          </CardHeader>
+          <CardContent className="grid gap-4 lg:grid-cols-3">
+            {topRooms.map((room) => (
+              <Link key={room.id} href={room.linkedView ?? "/visual-office"} className="rounded-2xl border p-4 transition-colors hover:bg-muted/30">
+                <div className="flex items-start justify-between gap-3">
+                  <div>
+                    <p className="font-medium">{room.name}</p>
+                    <p className="mt-1 text-xs text-muted-foreground">{room.progressLabel ?? room.roomType ?? "room"}</p>
+                  </div>
+                  <Badge variant="outline">{room.occupants.length} agent{room.occupants.length > 1 ? "s" : ""}</Badge>
+                </div>
+                <div className="mt-3 flex flex-wrap gap-2">
+                  {room.occupants.map((member) => (
+                    <Badge key={member.id} variant="secondary">{member.emoji ?? "•"} {member.name}</Badge>
+                  ))}
+                </div>
+                <p className="mt-3 text-sm text-muted-foreground">{room.openTasks.length} task{room.openTasks.length > 1 ? "s" : ""} visibles dans cette room.</p>
+              </Link>
+            ))}
+          </CardContent>
+        </Card>
+
+        <Card className="rounded-3xl">
+          <CardHeader>
+            <CardTitle>Focus stack</CardTitle>
+            <CardDescription>Ce qui tient ensemble la décision active, l’équipe et les chantiers du moment.</CardDescription>
+          </CardHeader>
+          <CardContent className="space-y-3">
+            <div className="rounded-2xl border p-4">
+              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-muted-foreground">Current focus</p>
+              <p className="mt-2 text-2xl font-semibold">{currentFocus}</p>
+              <p className="mt-2 text-sm text-muted-foreground">
+                {data.decisions.current ? `Choix actif: ${data.decisions.current.selectedLabel}` : "Aucun arbitrage explicite sélectionné pour l’instant."}
+              </p>
+            </div>
+            <div className="rounded-2xl border p-4">
+              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-muted-foreground">Live owners</p>
+              <div className="mt-3 flex flex-wrap gap-2">
+                {activeMembers.map((member) => (
+                  <Badge key={member.id} variant="outline">{member.emoji ?? "•"} {member.name}</Badge>
+                ))}
+              </div>
+            </div>
           </CardContent>
         </Card>
       </div>

@@ -3,7 +3,7 @@ import path from "path";
 
 import type { DecisionsState } from "@/lib/decision-engine";
 
-const WORKSPACE_ROOT = "/home/thibaud/.openclaw/workspace";
+const WORKSPACE_ROOT = path.resolve(process.cwd(), "..");
 const SKIP_DIRS = new Set([".git", "node_modules", ".next", ".pnpm-store"]);
 const DOC_DIRS = [".", "memory", "langflow", "imports/chatgpt-rag-ready/docs", "imports/chatgpt-elite-rag-ready/docs"];
 const PROJECT_FILES = [
@@ -31,6 +31,7 @@ export type TaskItem = {
   priority: "high" | "medium" | "low";
   category: "sales" | "offer" | "delivery" | "ops" | "memory" | "general";
   score: number;
+  createdAt?: string;
 };
 
 export type CalendarEvent = {
@@ -340,7 +341,7 @@ async function getTasks() {
     const uniqueFiles = Array.from(new Set(bucket.files));
 
     for (const filePath of uniqueFiles) {
-      const content = await readTextSafe(filePath);
+      const [content, fileStat] = await Promise.all([readTextSafe(filePath), statSafe(filePath)]);
       if (!content) continue;
 
       for (const [index, line] of content.split("\n").entries()) {
@@ -359,6 +360,7 @@ async function getTasks() {
           priority: classification.priority,
           category: classification.category,
           score: classification.score,
+          createdAt: fileStat?.mtime ? fileStat.mtime.toISOString() : undefined,
         });
       }
     }

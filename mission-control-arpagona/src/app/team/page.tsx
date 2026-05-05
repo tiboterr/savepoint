@@ -21,7 +21,7 @@ export default async function TeamPage() {
           schemaPath="mission-control-arpagona/STATE_SCHEMAS.md"
         />
       ) : (
-        <TeamSection members={data.team} />
+        <TeamSection members={data.team} spaces={data.visualOffice} tasks={data.tasks} />
       )}
     </MissionControlShell>
   );

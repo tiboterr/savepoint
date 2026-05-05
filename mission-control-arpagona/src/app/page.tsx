@@ -26,36 +26,43 @@ export default async function Home() {
             title: "Memory",
             description: "Journal récent, mémoire de travail, événements importants.",
             href: "/memory",
+            stats: data.stats.memoryFiles,
           },
           {
             title: "Docs",
             description: "Corpus markdown/json du workspace, prêt à explorer.",
             href: "/docs",
+            stats: data.stats.markdownDocs,
           },
           {
             title: "Projects",
             description: "Sources stratégiques ARPAGONA à garder dans le faisceau.",
             href: "/projects",
+            stats: data.stats.projectFiles,
           },
           {
             title: "Tasks",
             description: "Exécution live séparée du backlog archive.",
             href: "/tasks",
+            stats: data.stats.liveOpenTasks,
           },
           {
             title: "Calendar",
             description: "Source canonique locale, prête pour les vrais événements.",
             href: "/calendar",
+            stats: data.stats.upcomingEvents,
           },
           {
             title: "Team",
             description: "Modèle local pour membres, rôles et focus réels.",
             href: "/team",
+            stats: data.stats.teamMembers,
           },
           {
             title: "Visual Office",
             description: "Modèle local pour espaces et états opérationnels.",
             href: "/visual-office",
+            stats: data.stats.visualSpaces,
           },
         ].map((item) => (
           <Link key={item.href} href={item.href}>
@@ -65,6 +72,9 @@ export default async function Home() {
                 <CardDescription>{item.description}</CardDescription>
               </CardHeader>
               <CardContent className="text-sm text-muted-foreground">Ouvrir la vue →</CardContent>
+              <CardContent className="text-xs text-muted-foreground pt-0">
+                {item.stats > 0 ? `${item.stats} ${item.title === "Tasks" ? "tâches" : item.title === "Docs" ? "docs" : item.title === "Projects" ? "projets" : item.title === "Memory" ? "fichiers" : item.title === "Calendar" ? "événements" : item.title === "Team" ? "membres" : "espaces"}` : "Aucune donnée"}
+              </CardContent>
             </Card>
           </Link>
         ))}
